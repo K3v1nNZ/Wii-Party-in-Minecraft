@@ -122,9 +122,9 @@
 
     # Translations Billboard
     "lobby.Translations.Header":"Translations",
-    @instruction=LimitForced|75
-    "lobby.Translations.Subheader.1.1|2":"Join our Discord to|help with translations",
-    "lobby.Translations.Subheader.2.1|2":"Special thanks to our|current translators:",
+    @instruction=LimitForced|125
+    "lobby.Translations.Subheader.1.1|2":"Thanks to all|our translators",
+    "lobby.Translations.Subheader.2.1|2":"Join the @T;?lobby.Discord.Name@|to help!:",
     @clear
     "lobby.Translations.Language.French":"French:",
     "lobby.Translations.Language.Spanish":"Spanish:",
@@ -190,14 +190,16 @@
     "lobby.NotEnough.Team":"@EI;%1$s#Team Color@: @EI;%2$s#Player Name@",
     "lobby.NotEnough.Empty":"Empty",
 
+    # Minigame Selection
     % Switch to the previous minigame
     "lobby.Select.Previous":"Previous",
     % Switch to the new minigame
     "lobby.Select.Next":"Next",
     "lobby.Select.Play":"Play",
   
+    # Parkour Info
     # add book and sign translate key (-496,16,553 in the game)
-    @instruction=Book|5,5,5,3,3
+    @instruction=Book|7,7,8,3,3
     "lobby.Parkour.Book.1|2|3|4|5":"You are about to enter a Wii Party Parkour experience.|We recommend getting the full lore experience on the island before playing.|Head into the Sandstone building and clicking Explore Island and find a lectern in a shipwreck.|If you get stuck dm @PiemelPiraat|Warning: English Only",
     @clear
     "lobby.Parkour.Warning.1|2":"CAUTION|DO NOT ENTER",
@@ -778,7 +780,7 @@
     "game.HideNPeek.Tube.Name": "Tube",
     %% Seeker Item
     "game.HideNPeek.SeekerTool.Name": "Seeker's Tool",
-    "game.HideNPeek.SeekerTool.Lore": "Drop to search",
+    "game.HideNPeek.SeekerTool.Lore": "@T;control.RightClick@ to search",
     %%%%% If a hider gets caught
     "deathMessages.HideNPeek1": "@EI;%1$s#Player Name@ was caught by @EI;%2$s#Player Name@",
     "deathMessages.HideNPeek2": "@EI;%1$s#Player Name@ doesn't know how to hide",

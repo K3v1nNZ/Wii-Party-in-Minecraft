@@ -16,3 +16,5 @@ $execute if score test= minigameSelect matches 15 run data modify storage board:
 $execute if score test= minigameSelect matches 16 run data modify storage board:minigame_select images.$(game) set value "38"
 $execute if score test= minigameSelect matches 17 run data modify storage board:minigame_select images.$(game) set value "24"
 $execute if score test= minigameSelect matches 18 run data modify storage board:minigame_select images.$(game) set value "48"
+$execute if score test= minigameSelect matches 19 run data modify storage board:minigame_select images.$(game) set value "16"
+$execute if score test= minigameSelect matches 20 run data modify storage board:minigame_select images.$(game) set value "35"

@@ -12959,6 +12959,1446 @@
             "height": 2,
             "ascent": -17,
             "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-1-column-1.png",
+            "chars": [
+                "\u1611"
+            ],
+            "height": 2,
+            "ascent": 1,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-1-column-2.png",
+            "chars": [
+                "\u1612"
+            ],
+            "height": 2,
+            "ascent": 1,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-1-column-3.png",
+            "chars": [
+                "\u1613"
+            ],
+            "height": 2,
+            "ascent": 1,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-1-column-4.png",
+            "chars": [
+                "\u1614"
+            ],
+            "height": 2,
+            "ascent": 1,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-1-column-5.png",
+            "chars": [
+                "\u1615"
+            ],
+            "height": 2,
+            "ascent": 1,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-1-column-6.png",
+            "chars": [
+                "\u1616"
+            ],
+            "height": 2,
+            "ascent": 1,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-1-column-7.png",
+            "chars": [
+                "\u1617"
+            ],
+            "height": 2,
+            "ascent": 1,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-1-column-8.png",
+            "chars": [
+                "\u1618"
+            ],
+            "height": 2,
+            "ascent": 1,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-2-column-1.png",
+            "chars": [
+                "\u1621"
+            ],
+            "height": 2,
+            "ascent": -1,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-2-column-2.png",
+            "chars": [
+                "\u1622"
+            ],
+            "height": 2,
+            "ascent": -1,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-2-column-3.png",
+            "chars": [
+                "\u1623"
+            ],
+            "height": 2,
+            "ascent": -1,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-2-column-4.png",
+            "chars": [
+                "\u1624"
+            ],
+            "height": 2,
+            "ascent": -1,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-2-column-5.png",
+            "chars": [
+                "\u1625"
+            ],
+            "height": 2,
+            "ascent": -1,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-2-column-6.png",
+            "chars": [
+                "\u1626"
+            ],
+            "height": 2,
+            "ascent": -1,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-2-column-7.png",
+            "chars": [
+                "\u1627"
+            ],
+            "height": 2,
+            "ascent": -1,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-2-column-8.png",
+            "chars": [
+                "\u1628"
+            ],
+            "height": 2,
+            "ascent": -1,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-3-column-1.png",
+            "chars": [
+                "\u1631"
+            ],
+            "height": 2,
+            "ascent": -3,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-3-column-2.png",
+            "chars": [
+                "\u1632"
+            ],
+            "height": 2,
+            "ascent": -3,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-3-column-3.png",
+            "chars": [
+                "\u1633"
+            ],
+            "height": 2,
+            "ascent": -3,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-3-column-4.png",
+            "chars": [
+                "\u1634"
+            ],
+            "height": 2,
+            "ascent": -3,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-3-column-5.png",
+            "chars": [
+                "\u1635"
+            ],
+            "height": 2,
+            "ascent": -3,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-3-column-6.png",
+            "chars": [
+                "\u1636"
+            ],
+            "height": 2,
+            "ascent": -3,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-3-column-7.png",
+            "chars": [
+                "\u1637"
+            ],
+            "height": 2,
+            "ascent": -3,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-3-column-8.png",
+            "chars": [
+                "\u1638"
+            ],
+            "height": 2,
+            "ascent": -3,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-4-column-1.png",
+            "chars": [
+                "\u1641"
+            ],
+            "height": 2,
+            "ascent": -5,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-4-column-2.png",
+            "chars": [
+                "\u1642"
+            ],
+            "height": 2,
+            "ascent": -5,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-4-column-3.png",
+            "chars": [
+                "\u1643"
+            ],
+            "height": 2,
+            "ascent": -5,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-4-column-4.png",
+            "chars": [
+                "\u1644"
+            ],
+            "height": 2,
+            "ascent": -5,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-4-column-5.png",
+            "chars": [
+                "\u1645"
+            ],
+            "height": 2,
+            "ascent": -5,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-4-column-6.png",
+            "chars": [
+                "\u1646"
+            ],
+            "height": 2,
+            "ascent": -5,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-4-column-7.png",
+            "chars": [
+                "\u1647"
+            ],
+            "height": 2,
+            "ascent": -5,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-4-column-8.png",
+            "chars": [
+                "\u1648"
+            ],
+            "height": 2,
+            "ascent": -5,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-5-column-1.png",
+            "chars": [
+                "\u1651"
+            ],
+            "height": 2,
+            "ascent": -7,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-5-column-2.png",
+            "chars": [
+                "\u1652"
+            ],
+            "height": 2,
+            "ascent": -7,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-5-column-3.png",
+            "chars": [
+                "\u1653"
+            ],
+            "height": 2,
+            "ascent": -7,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-5-column-4.png",
+            "chars": [
+                "\u1654"
+            ],
+            "height": 2,
+            "ascent": -7,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-5-column-5.png",
+            "chars": [
+                "\u1655"
+            ],
+            "height": 2,
+            "ascent": -7,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-5-column-6.png",
+            "chars": [
+                "\u1656"
+            ],
+            "height": 2,
+            "ascent": -7,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-5-column-7.png",
+            "chars": [
+                "\u1657"
+            ],
+            "height": 2,
+            "ascent": -7,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-5-column-8.png",
+            "chars": [
+                "\u1658"
+            ],
+            "height": 2,
+            "ascent": -7,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-6-column-1.png",
+            "chars": [
+                "\u1661"
+            ],
+            "height": 2,
+            "ascent": -9,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-6-column-2.png",
+            "chars": [
+                "\u1662"
+            ],
+            "height": 2,
+            "ascent": -9,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-6-column-3.png",
+            "chars": [
+                "\u1663"
+            ],
+            "height": 2,
+            "ascent": -9,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-6-column-4.png",
+            "chars": [
+                "\u1664"
+            ],
+            "height": 2,
+            "ascent": -9,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-6-column-5.png",
+            "chars": [
+                "\u1665"
+            ],
+            "height": 2,
+            "ascent": -9,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-6-column-6.png",
+            "chars": [
+                "\u1666"
+            ],
+            "height": 2,
+            "ascent": -9,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-6-column-7.png",
+            "chars": [
+                "\u1667"
+            ],
+            "height": 2,
+            "ascent": -9,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-6-column-8.png",
+            "chars": [
+                "\u1668"
+            ],
+            "height": 2,
+            "ascent": -9,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-7-column-1.png",
+            "chars": [
+                "\u1671"
+            ],
+            "height": 2,
+            "ascent": -11,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-7-column-2.png",
+            "chars": [
+                "\u1672"
+            ],
+            "height": 2,
+            "ascent": -11,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-7-column-3.png",
+            "chars": [
+                "\u1673"
+            ],
+            "height": 2,
+            "ascent": -11,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-7-column-4.png",
+            "chars": [
+                "\u1674"
+            ],
+            "height": 2,
+            "ascent": -11,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-7-column-5.png",
+            "chars": [
+                "\u1675"
+            ],
+            "height": 2,
+            "ascent": -11,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-7-column-6.png",
+            "chars": [
+                "\u1676"
+            ],
+            "height": 2,
+            "ascent": -11,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-7-column-7.png",
+            "chars": [
+                "\u1677"
+            ],
+            "height": 2,
+            "ascent": -11,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-7-column-8.png",
+            "chars": [
+                "\u1678"
+            ],
+            "height": 2,
+            "ascent": -11,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-8-column-1.png",
+            "chars": [
+                "\u1681"
+            ],
+            "height": 2,
+            "ascent": -13,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-8-column-2.png",
+            "chars": [
+                "\u1682"
+            ],
+            "height": 2,
+            "ascent": -13,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-8-column-3.png",
+            "chars": [
+                "\u1683"
+            ],
+            "height": 2,
+            "ascent": -13,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-8-column-4.png",
+            "chars": [
+                "\u1684"
+            ],
+            "height": 2,
+            "ascent": -13,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-8-column-5.png",
+            "chars": [
+                "\u1685"
+            ],
+            "height": 2,
+            "ascent": -13,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-8-column-6.png",
+            "chars": [
+                "\u1686"
+            ],
+            "height": 2,
+            "ascent": -13,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-8-column-7.png",
+            "chars": [
+                "\u1687"
+            ],
+            "height": 2,
+            "ascent": -13,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-8-column-8.png",
+            "chars": [
+                "\u1688"
+            ],
+            "height": 2,
+            "ascent": -13,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-9-column-1.png",
+            "chars": [
+                "\u1691"
+            ],
+            "height": 2,
+            "ascent": -15,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-9-column-2.png",
+            "chars": [
+                "\u1692"
+            ],
+            "height": 2,
+            "ascent": -15,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-9-column-3.png",
+            "chars": [
+                "\u1693"
+            ],
+            "height": 2,
+            "ascent": -15,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-9-column-4.png",
+            "chars": [
+                "\u1694"
+            ],
+            "height": 2,
+            "ascent": -15,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-9-column-5.png",
+            "chars": [
+                "\u1695"
+            ],
+            "height": 2,
+            "ascent": -15,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-9-column-6.png",
+            "chars": [
+                "\u1696"
+            ],
+            "height": 2,
+            "ascent": -15,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-9-column-7.png",
+            "chars": [
+                "\u1697"
+            ],
+            "height": 2,
+            "ascent": -15,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-9-column-8.png",
+            "chars": [
+                "\u1698"
+            ],
+            "height": 2,
+            "ascent": -15,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-10-column-1.png",
+            "chars": [
+                "\u16A1"
+            ],
+            "height": 2,
+            "ascent": -17,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-10-column-2.png",
+            "chars": [
+                "\u16A2"
+            ],
+            "height": 2,
+            "ascent": -17,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-10-column-3.png",
+            "chars": [
+                "\u16A3"
+            ],
+            "height": 2,
+            "ascent": -17,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-10-column-4.png",
+            "chars": [
+                "\u16A4"
+            ],
+            "height": 2,
+            "ascent": -17,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-10-column-5.png",
+            "chars": [
+                "\u16A5"
+            ],
+            "height": 2,
+            "ascent": -17,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-10-column-6.png",
+            "chars": [
+                "\u16A6"
+            ],
+            "height": 2,
+            "ascent": -17,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-10-column-7.png",
+            "chars": [
+                "\u16A7"
+            ],
+            "height": 2,
+            "ascent": -17,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/16a/row-10-column-8.png",
+            "chars": [
+                "\u16A8"
+            ],
+            "height": 2,
+            "ascent": -17,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-1-column-1.png",
+            "chars": [
+                "\u3511"
+            ],
+            "height": 2,
+            "ascent": 1,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-1-column-2.png",
+            "chars": [
+                "\u3512"
+            ],
+            "height": 2,
+            "ascent": 1,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-1-column-3.png",
+            "chars": [
+                "\u3513"
+            ],
+            "height": 2,
+            "ascent": 1,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-1-column-4.png",
+            "chars": [
+                "\u3514"
+            ],
+            "height": 2,
+            "ascent": 1,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-1-column-5.png",
+            "chars": [
+                "\u3515"
+            ],
+            "height": 2,
+            "ascent": 1,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-1-column-6.png",
+            "chars": [
+                "\u3516"
+            ],
+            "height": 2,
+            "ascent": 1,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-1-column-7.png",
+            "chars": [
+                "\u3517"
+            ],
+            "height": 2,
+            "ascent": 1,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-1-column-8.png",
+            "chars": [
+                "\u3518"
+            ],
+            "height": 2,
+            "ascent": 1,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-2-column-1.png",
+            "chars": [
+                "\u3521"
+            ],
+            "height": 2,
+            "ascent": -1,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-2-column-2.png",
+            "chars": [
+                "\u3522"
+            ],
+            "height": 2,
+            "ascent": -1,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-2-column-3.png",
+            "chars": [
+                "\u3523"
+            ],
+            "height": 2,
+            "ascent": -1,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-2-column-4.png",
+            "chars": [
+                "\u3524"
+            ],
+            "height": 2,
+            "ascent": -1,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-2-column-5.png",
+            "chars": [
+                "\u3525"
+            ],
+            "height": 2,
+            "ascent": -1,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-2-column-6.png",
+            "chars": [
+                "\u3526"
+            ],
+            "height": 2,
+            "ascent": -1,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-2-column-7.png",
+            "chars": [
+                "\u3527"
+            ],
+            "height": 2,
+            "ascent": -1,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-2-column-8.png",
+            "chars": [
+                "\u3528"
+            ],
+            "height": 2,
+            "ascent": -1,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-3-column-1.png",
+            "chars": [
+                "\u3531"
+            ],
+            "height": 2,
+            "ascent": -3,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-3-column-2.png",
+            "chars": [
+                "\u3532"
+            ],
+            "height": 2,
+            "ascent": -3,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-3-column-3.png",
+            "chars": [
+                "\u3533"
+            ],
+            "height": 2,
+            "ascent": -3,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-3-column-4.png",
+            "chars": [
+                "\u3534"
+            ],
+            "height": 2,
+            "ascent": -3,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-3-column-5.png",
+            "chars": [
+                "\u3535"
+            ],
+            "height": 2,
+            "ascent": -3,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-3-column-6.png",
+            "chars": [
+                "\u3536"
+            ],
+            "height": 2,
+            "ascent": -3,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-3-column-7.png",
+            "chars": [
+                "\u3537"
+            ],
+            "height": 2,
+            "ascent": -3,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-3-column-8.png",
+            "chars": [
+                "\u3538"
+            ],
+            "height": 2,
+            "ascent": -3,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-4-column-1.png",
+            "chars": [
+                "\u3541"
+            ],
+            "height": 2,
+            "ascent": -5,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-4-column-2.png",
+            "chars": [
+                "\u3542"
+            ],
+            "height": 2,
+            "ascent": -5,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-4-column-3.png",
+            "chars": [
+                "\u3543"
+            ],
+            "height": 2,
+            "ascent": -5,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-4-column-4.png",
+            "chars": [
+                "\u3544"
+            ],
+            "height": 2,
+            "ascent": -5,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-4-column-5.png",
+            "chars": [
+                "\u3545"
+            ],
+            "height": 2,
+            "ascent": -5,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-4-column-6.png",
+            "chars": [
+                "\u3546"
+            ],
+            "height": 2,
+            "ascent": -5,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-4-column-7.png",
+            "chars": [
+                "\u3547"
+            ],
+            "height": 2,
+            "ascent": -5,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-4-column-8.png",
+            "chars": [
+                "\u3548"
+            ],
+            "height": 2,
+            "ascent": -5,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-5-column-1.png",
+            "chars": [
+                "\u3551"
+            ],
+            "height": 2,
+            "ascent": -7,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-5-column-2.png",
+            "chars": [
+                "\u3552"
+            ],
+            "height": 2,
+            "ascent": -7,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-5-column-3.png",
+            "chars": [
+                "\u3553"
+            ],
+            "height": 2,
+            "ascent": -7,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-5-column-4.png",
+            "chars": [
+                "\u3554"
+            ],
+            "height": 2,
+            "ascent": -7,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-5-column-5.png",
+            "chars": [
+                "\u3555"
+            ],
+            "height": 2,
+            "ascent": -7,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-5-column-6.png",
+            "chars": [
+                "\u3556"
+            ],
+            "height": 2,
+            "ascent": -7,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-5-column-7.png",
+            "chars": [
+                "\u3557"
+            ],
+            "height": 2,
+            "ascent": -7,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-5-column-8.png",
+            "chars": [
+                "\u3558"
+            ],
+            "height": 2,
+            "ascent": -7,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-6-column-1.png",
+            "chars": [
+                "\u3561"
+            ],
+            "height": 2,
+            "ascent": -9,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-6-column-2.png",
+            "chars": [
+                "\u3562"
+            ],
+            "height": 2,
+            "ascent": -9,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-6-column-3.png",
+            "chars": [
+                "\u3563"
+            ],
+            "height": 2,
+            "ascent": -9,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-6-column-4.png",
+            "chars": [
+                "\u3564"
+            ],
+            "height": 2,
+            "ascent": -9,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-6-column-5.png",
+            "chars": [
+                "\u3565"
+            ],
+            "height": 2,
+            "ascent": -9,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-6-column-6.png",
+            "chars": [
+                "\u3566"
+            ],
+            "height": 2,
+            "ascent": -9,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-6-column-7.png",
+            "chars": [
+                "\u3567"
+            ],
+            "height": 2,
+            "ascent": -9,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-6-column-8.png",
+            "chars": [
+                "\u3568"
+            ],
+            "height": 2,
+            "ascent": -9,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-7-column-1.png",
+            "chars": [
+                "\u3571"
+            ],
+            "height": 2,
+            "ascent": -11,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-7-column-2.png",
+            "chars": [
+                "\u3572"
+            ],
+            "height": 2,
+            "ascent": -11,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-7-column-3.png",
+            "chars": [
+                "\u3573"
+            ],
+            "height": 2,
+            "ascent": -11,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-7-column-4.png",
+            "chars": [
+                "\u3574"
+            ],
+            "height": 2,
+            "ascent": -11,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-7-column-5.png",
+            "chars": [
+                "\u3575"
+            ],
+            "height": 2,
+            "ascent": -11,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-7-column-6.png",
+            "chars": [
+                "\u3576"
+            ],
+            "height": 2,
+            "ascent": -11,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-7-column-7.png",
+            "chars": [
+                "\u3577"
+            ],
+            "height": 2,
+            "ascent": -11,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-7-column-8.png",
+            "chars": [
+                "\u3578"
+            ],
+            "height": 2,
+            "ascent": -11,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-8-column-1.png",
+            "chars": [
+                "\u3581"
+            ],
+            "height": 2,
+            "ascent": -13,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-8-column-2.png",
+            "chars": [
+                "\u3582"
+            ],
+            "height": 2,
+            "ascent": -13,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-8-column-3.png",
+            "chars": [
+                "\u3583"
+            ],
+            "height": 2,
+            "ascent": -13,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-8-column-4.png",
+            "chars": [
+                "\u3584"
+            ],
+            "height": 2,
+            "ascent": -13,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-8-column-5.png",
+            "chars": [
+                "\u3585"
+            ],
+            "height": 2,
+            "ascent": -13,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-8-column-6.png",
+            "chars": [
+                "\u3586"
+            ],
+            "height": 2,
+            "ascent": -13,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-8-column-7.png",
+            "chars": [
+                "\u3587"
+            ],
+            "height": 2,
+            "ascent": -13,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-8-column-8.png",
+            "chars": [
+                "\u3588"
+            ],
+            "height": 2,
+            "ascent": -13,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-9-column-1.png",
+            "chars": [
+                "\u3591"
+            ],
+            "height": 2,
+            "ascent": -15,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-9-column-2.png",
+            "chars": [
+                "\u3592"
+            ],
+            "height": 2,
+            "ascent": -15,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-9-column-3.png",
+            "chars": [
+                "\u3593"
+            ],
+            "height": 2,
+            "ascent": -15,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-9-column-4.png",
+            "chars": [
+                "\u3594"
+            ],
+            "height": 2,
+            "ascent": -15,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-9-column-5.png",
+            "chars": [
+                "\u3595"
+            ],
+            "height": 2,
+            "ascent": -15,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-9-column-6.png",
+            "chars": [
+                "\u3596"
+            ],
+            "height": 2,
+            "ascent": -15,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-9-column-7.png",
+            "chars": [
+                "\u3597"
+            ],
+            "height": 2,
+            "ascent": -15,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-9-column-8.png",
+            "chars": [
+                "\u3598"
+            ],
+            "height": 2,
+            "ascent": -15,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-10-column-1.png",
+            "chars": [
+                "\u35A1"
+            ],
+            "height": 2,
+            "ascent": -17,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-10-column-2.png",
+            "chars": [
+                "\u35A2"
+            ],
+            "height": 2,
+            "ascent": -17,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-10-column-3.png",
+            "chars": [
+                "\u35A3"
+            ],
+            "height": 2,
+            "ascent": -17,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-10-column-4.png",
+            "chars": [
+                "\u35A4"
+            ],
+            "height": 2,
+            "ascent": -17,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-10-column-5.png",
+            "chars": [
+                "\u35A5"
+            ],
+            "height": 2,
+            "ascent": -17,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-10-column-6.png",
+            "chars": [
+                "\u35A6"
+            ],
+            "height": 2,
+            "ascent": -17,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-10-column-7.png",
+            "chars": [
+                "\u35A7"
+            ],
+            "height": 2,
+            "ascent": -17,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/minigames/35a/row-10-column-8.png",
+            "chars": [
+                "\u35A8"
+            ],
+            "height": 2,
+            "ascent": -17,
+            "type": "bitmap"
         }
     ]
 }

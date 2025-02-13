@@ -28,6 +28,8 @@ execute if score final= minigameSelect matches 15 run data modify storage board:
 execute if score final= minigameSelect matches 16 run data modify storage board:minigame_select name set value "Shutterpup"
 execute if score final= minigameSelect matches 17 run data modify storage board:minigame_select name set value "MazeDaze"
 execute if score final= minigameSelect matches 18 run data modify storage board:minigame_select name set value "WalkOff"
+execute if score final= minigameSelect matches 19 run data modify storage board:minigame_select name set value "TropicalPunch"
+execute if score final= minigameSelect matches 20 run data modify storage board:minigame_select name set value "StrategySteps"
 
 function board:select/get_name with storage board:minigame_select
 

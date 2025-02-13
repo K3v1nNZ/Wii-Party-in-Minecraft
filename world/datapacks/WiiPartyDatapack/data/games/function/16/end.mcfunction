@@ -41,3 +41,7 @@ execute as @a[tag=ingame] run attribute @s minecraft:generic.jump_strength base 
 effect clear @a[tag=ingame] haste
 
 execute as @a[tag=ingame] run attribute @s generic.attack_speed base set 4.0
+
+clear @a[tag=ingame] crossbow
+clear @a[tag=ingame] carrot_on_a_stick
+clear @a[tag=ingame] arrow
