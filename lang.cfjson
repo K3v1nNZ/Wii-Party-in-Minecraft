@@ -123,8 +123,8 @@
     # Translations Billboard
     "lobby.Translations.Header":"Translations",
     @instruction=LimitForced|125
-    "lobby.Translations.Subheader.1.1|2":"Thanks to all|our translators",
-    "lobby.Translations.Subheader.2.1|2":"Join the @T;?lobby.Discord.Name@|to help!:",
+    "lobby.Translations.Subheader.1.1|2":"Thanks to all|our translators :)",
+    "lobby.Translations.Subheader.2.1|2":"Join the @T;?lobby.Discord.Name@|to help!",
     @clear
     "lobby.Translations.Language.French":"French:",
     "lobby.Translations.Language.Spanish":"Spanish:",
