@@ -4,7 +4,7 @@ $tag @a[tag=$(place)] add drawRoll
 
 #$tellraw @a[tag=playing] [{"text":"Multiple players ended with $(place) place!\nPlayers ","color":"gray"},{"selector":"@a[tag=drawRoll]"},{"text":" will now to decide their new positions."}]
 
-$tellraw @a[tag=playing] [{"translate":"board.Draw.Start.1","color":"gray","with":[{"text":"generic.$(place)"}]}]
+$tellraw @a[tag=playing] [{"translate":"board.Draw.Start.1","color":"gray","with":[{"translate":"generic.$(place)"}]}]
 tellraw @a[tag=playing] [{"translate":"board.Draw.Start.2","color":"gray","with":[{"selector":"@a[tag=drawRoll]"}]}]
 
 execute as @a[tag=playing] at @s run playsound block.note_block.pling master @s ~ ~ ~ 10000
