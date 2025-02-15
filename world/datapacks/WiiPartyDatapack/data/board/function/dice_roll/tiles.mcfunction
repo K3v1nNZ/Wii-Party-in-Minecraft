@@ -26,7 +26,7 @@ scoreboard players reset temp= newBoardPos
 
 # Action bar for other players
 tag @s add ignore
-title @s[tag=playing,tag=!ignore] actionbar [{"translate":"board.DiceRoll.IsMoving","color":"gray","with":[{"selector":"@a[tag=ignore]","font":"ult_effects:top_left_anchor"}]},{"translate":"board.DiceRoll.IsMoving","color":"gray","with":[{"selector":"@a[tag=ignore]"}]}]
+title @a[tag=playing,tag=!ignore] actionbar [{"translate":"board.DiceRoll.IsMoving","color":"gray","with":[{"selector":"@a[tag=ignore]"}],"font":"ult_effects:top_left_anchor"}," ",{"translate":"board.DiceRoll.IsMoving","color":"gray","with":[{"selector":"@a[tag=ignore]"}],"font":"ult_effects:top_left_anchor"}]
 tag @s remove ignore
 
 # Makes sure the player can't move their skip item, or drop it

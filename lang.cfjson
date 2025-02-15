@@ -244,7 +244,7 @@
     "board.DiceRoll.RollAgain": "Roll Again",
     "board.DiceRoll.TurnOver": "Turn over!",
     "board.DiceRoll.YouRolled": "You got @EI;%s#Total Roll@ in total!",
-    "board.DiceRoll.IsMoving":"%s is moving"
+    "board.DiceRoll.IsMoving":"%s is moving",
     # Skipping
     % Confusing phrasing, meaning 'use this item to move to your tile'
     "board.DiceRoll.Skip.Name": "Skip to Tile",
