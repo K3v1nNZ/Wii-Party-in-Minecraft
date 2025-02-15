@@ -50,6 +50,8 @@ forceload add 4993 5008 5011 5016
 forceload add 19148 19145 19167 19164
 # Goal getters balls
 forceload add 22927 22986 22921 22984
+# Risky Railway wall
+forceload add 24010 23988
 
 team add colorAqua
 team modify colorAqua color aqua

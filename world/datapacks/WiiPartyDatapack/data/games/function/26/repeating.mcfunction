@@ -24,9 +24,10 @@ execute store result bossbar 26green value run scoreboard players get timer= 26s
 execute store result bossbar 26orange value run scoreboard players get timer= 26scores
 
 # Stops player from dropping hammer
-execute as @e[type=minecraft:item,tag=!processed,nbt={Item:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{hammer:1b}},count:1}}] run data modify entity @s Owner set from entity @s Thrower
-execute as @e[type=minecraft:item,tag=!processed,nbt={Item:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{hammer:1b}},count:1}}] run data modify entity @s PickupDelay set value 0
-tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{hammer:1b}},count:1}}] add processe
+#execute as @e[type=minecraft:item,tag=!processed,nbt={Item:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{hammer:1b}},count:1}}] run data modify entity @s Owner set from entity @s Thrower
+#execute as @e[type=minecraft:item,tag=!processed,nbt={Item:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{hammer:1b}},count:1}}] run data modify entity @s PickupDelay set value 0
+#tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{hammer:1b}},count:1}}] add processed
+kill @e[type=minecraft:item,nbt={Item:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{hammer:1b}},count:1}}]
 
 # Runs the player function as all ingame players
 execute as @a[tag=ingame] at @s run function games:26/player

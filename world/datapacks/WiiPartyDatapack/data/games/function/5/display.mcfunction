@@ -6,6 +6,7 @@
 scoreboard objectives add 5display dummy
 scoreboard objectives setdisplay sidebar 5display
 scoreboard players reset * 5display
+scoreboard objectives modify 5display displayname {"translate": "game.LuckyLaunchName","bold":true}
 
 # If there is an entity on the team, it will add the teams name to the scoreboard
 team join t.Blue §l
