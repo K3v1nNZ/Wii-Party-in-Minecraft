@@ -421,9 +421,9 @@
     "scoreboard.BackAttack.Symbol":"❌",
     "scoreboard.LuckyLaunch.Symbol":"❌",
     "scoreboard.DerbyDash.Symbol":"🎌",
-    "scoreboard.ChopChops.Symbol.1":"%0%%",
-    "scoreboard.ChopChops.Symbol.2":"%00%%",
-    "scoreboard.ChopChops.Symbol.3":"%100%%",
+    "scoreboard.ChopChops.Symbol.1":"0%",
+    "scoreboard.ChopChops.Symbol.2":"00%",
+    "scoreboard.ChopChops.Symbol.3":"100%",
     "scoreboard.PopgunPosse.Symbol.1":"0",
     "scoreboard.PopgunPosse.Symbol.2":"00",
     "scoreboard.FlagFracas.Symbol":"🎌",
@@ -472,9 +472,14 @@
     "scoreboard.BackAttack":"@SI;%1$s#scoreboard.BackAttack.Symbol@",
     "scoreboard.LuckyLaunch":"@SI;%1$s#scoreboard.LuckyLaunch.Symbol@",
     "scoreboard.DerbyDash":"@SI;%1$s#scoreboard.DerbyDash.Symbol@",
-    "scoreboard.ChopChops.1":"@SI;%s#scoreboard.ChopChops.Symbol.1@",
-    "scoreboard.ChopChops.2":"@SI;%s#scoreboard.ChopChops.Symbol.2@",
-    "scoreboard.ChopChops.3":"@SI;%s#scoreboard.ChopChops.Symbol.3@",
+    @clear
+    @instruction=LimitForcedJevin|125
+    "scoreboard.ChopChops.1":"@SI;%s#scoreboard.ChopChops.Symbol.1@%%",
+    "scoreboard.ChopChops.2":"@SI;%s#scoreboard.ChopChops.Symbol.2@%%",
+    "scoreboard.ChopChops.3":"@SI;%s#scoreboard.ChopChops.Symbol.3@%%",
+    @clear
+    @skip
+    @instruction=LimitForcedJevin|125
     "scoreboard.PopgunPosse.1":"@SI;%s#scoreboard.PopgunPosse.Symbol.1@",
     "scoreboard.PopgunPosse.2":"@SI;%s#scoreboard.PopgunPosse.Symbol.2@",
     "scoreboard.FlagFracas":"@SI;%1$s#scoreboard.FlagFracas.Symbol@",
