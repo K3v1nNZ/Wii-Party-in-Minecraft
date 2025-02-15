@@ -108,6 +108,6 @@ void main() {
 	vec4 color = textureSample * text.color * ColorModulator * lightColor;
 
 	if(isMap > 0.5) color = texture(Sampler0, texCoord0) * baseColor * lightColor * ColorModulator;
-    if(color.a < 20 / 255.) discard;
+    if(color.a < 24 / 255.) discard;
     fragColor = linear_fog(color, vertexDistance, FogStart, FogEnd, FogColor);
 }

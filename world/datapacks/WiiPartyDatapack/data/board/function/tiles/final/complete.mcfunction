@@ -2,7 +2,7 @@ scoreboard players set final= tiles 3
 scoreboard players reset wintimer= tiles
 
 
-title @a[tag=playing] title [{"translate":"board.Tiles.Final.Victory!","font":"minecraft:gold","bold":true}]
+title @a[tag=playing] title [{"translate":"board.Tiles.Final.Victory!","bold":true,"color":"#FF2CFF"}]
 title @a[tag=playing] subtitle ""
 execute as @a[tag=playing] at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 0.75
 
