@@ -8,6 +8,10 @@
         { "type": "directory", "source": "o", "prefix": "o/" },
         { "type": "directory", "source": "face_flip", "prefix": "face_flip/" },
         { "type": "directory", "source": "friendly_faceoff", "prefix": "friendly_faceoff/" },
-        { "type": "directory", "source": "minigames", "prefix": "minigames/" }
+        { "type": "directory", "source": "minigames", "prefix": "minigames/" },
+        {
+            "type": "single",
+            "resource": "ult_effects:shader/sprite_sheet"
+        }
     ]
 }
