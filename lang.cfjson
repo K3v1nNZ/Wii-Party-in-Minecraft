@@ -474,9 +474,9 @@
     "scoreboard.DerbyDash":"@SI;%1$s#scoreboard.DerbyDash.Symbol@",
     @clear
     @instruction=LimitForcedJevin|125
-    "scoreboard.ChopChops.1":"@SI;%s#scoreboard.ChopChops.Symbol.1@%",
-    "scoreboard.ChopChops.2":"@SI;%s#scoreboard.ChopChops.Symbol.2@%",
-    "scoreboard.ChopChops.3":"@SI;%s#scoreboard.ChopChops.Symbol.3@%",
+    "scoreboard.ChopChops.1":"@SI;%s#scoreboard.ChopChops.Symbol.1@%%",
+    "scoreboard.ChopChops.2":"@SI;%s#scoreboard.ChopChops.Symbol.2@%%",
+    "scoreboard.ChopChops.3":"@SI;%s#scoreboard.ChopChops.Symbol.3@%%",
     @clear
     @skip
     @instruction=LimitForcedJevin|125
