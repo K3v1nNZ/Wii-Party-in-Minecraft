@@ -5,8 +5,8 @@
             "chars": [
                 "a"
             ],
-            "height": 512,
-            "ascent": 256,
+            "height": 1024,
+            "ascent": 512,
             "type": "bitmap"
         },
         {
@@ -14,8 +14,8 @@
             "chars": [
                 "b"
             ],
-            "height": 512,
-            "ascent": 256,
+            "height": 1024,
+            "ascent": 512,
             "type": "bitmap"
         },
         {
@@ -23,8 +23,8 @@
             "chars": [
                 "c"
             ],
-            "height": 512,
-            "ascent": 256,
+            "height": 1024,
+            "ascent": 512,
             "type": "bitmap"
         },
         {

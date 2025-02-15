@@ -24,11 +24,14 @@ execute if entity @s[tag=volcano] if score temp= newBoardPos matches 11.. run sc
     # Resets the temp score (since its temporary)
 scoreboard players reset temp= newBoardPos
 
+<<<<<<< HEAD
 # Action bar for other players
 tag @s add ignore
 title @a[tag=playing,tag=!ignore] actionbar [{"translate":"board.DiceRoll.IsMoving","color":"gray","with":[{"selector":"@a[tag=ignore]"}],"font":"ult_effects:top_left_anchor"}," ",{"translate":"board.DiceRoll.IsMoving","color":"gray","with":[{"selector":"@a[tag=ignore]"}],"font":"ult_effects:top_left_anchor"}]
 tag @s remove ignore
 
+=======
+>>>>>>> parent of c4cb2031 (Ult effects)
 # Makes sure the player can't move their skip item, or drop it
 execute unless score eventRoll= tiles matches 1.. unless entity @s[nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{skip:1b}},Slot:8b}]}] run clear @s minecraft:carrot_on_a_stick[minecraft:custom_data={skip:1b}]
 execute unless score eventRoll= tiles matches 1.. unless entity @s[nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{skip:1b}},Slot:8b}]}] run function board:dice_roll/give/skip
