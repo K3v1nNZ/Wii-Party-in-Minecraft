@@ -1,0 +1,1 @@
+place template games:strategy_steps -611 6 547

@@ -20,6 +20,8 @@ execute if score minigame= lobby matches 17 run function lobby:minis/maze_daze
 execute if score minigame= lobby matches 18 run function lobby:minis/walk_off
 execute if score minigame= lobby matches 19 run function lobby:minis/channel_changers
 execute if score minigame= lobby matches 20 run function lobby:minis/hide_n_peek
+execute if score minigame= lobby matches 21 run function lobby:minis/tropical_punch
+execute if score minigame= lobby matches 22 run function lobby:minis/strategy_steps
 
 execute as @e[type=armor_stand,x=-596,y=0,z=548,dx=-40,dy=30,dz=40] run data merge entity @s {DisabledSlots:4144959}
 execute as @e[type=item_frame,x=-596,y=0,z=548,dx=-40,dy=30,dz=40] run data merge entity @s {Fixed:true,Invisible:1b, Invulnerable:1b}
