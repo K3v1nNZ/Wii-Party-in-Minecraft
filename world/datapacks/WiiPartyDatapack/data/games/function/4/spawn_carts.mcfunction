@@ -4,7 +4,7 @@ execute at @a[tag=ingame,team=green] run summon minecraft:item_display ~ ~.2 ~ {
 execute at @a[tag=ingame,team=orange] run summon minecraft:item_display ~ ~.2 ~ {Tags:["4cart","orange"],NoGravity:1b,Invulnerable:1b,Silent:1b,item:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_model_data":4005},count:1},teleport_duration:2,item_display:"fixed",transformation:{left_rotation:{angle:0f,axis:[0f,1f,0f]},right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]},Rotation:[0f,0f]}
 
 # interaction
-execute at @a[tag=ingame,team=blue] run summon minecraft:interaction ~ ~-3 ~ {Tags:["4cart","blue"],width:1f,height:1f,response:1b}
-execute at @a[tag=ingame,team=red] run summon minecraft:interaction ~ ~-3 ~ {Tags:["4cart","red"],width:1f,height:1f,response:1b}
-execute at @a[tag=ingame,team=green] run summon minecraft:interaction ~ ~-3 ~ {Tags:["4cart","green"],width:1f,height:1f,response:1b}
-execute at @a[tag=ingame,team=orange] run summon minecraft:interaction ~ ~-3 ~ {Tags:["4cart","orange"],width:1f,height:1f,response:1b}
+execute at @a[tag=ingame,team=blue] run summon minecraft:interaction ~ ~-3 ~ {Tags:["4cart","blue"],width:0.5f,height:1f,response:1b}
+execute at @a[tag=ingame,team=red] run summon minecraft:interaction ~ ~-3 ~ {Tags:["4cart","red"],width:0.5f,height:1f,response:1b}
+execute at @a[tag=ingame,team=green] run summon minecraft:interaction ~ ~-3 ~ {Tags:["4cart","green"],width:0.5f,height:1f,response:1b}
+execute at @a[tag=ingame,team=orange] run summon minecraft:interaction ~ ~-3 ~ {Tags:["4cart","orange"],width:0.5f,height:1f,response:1b}

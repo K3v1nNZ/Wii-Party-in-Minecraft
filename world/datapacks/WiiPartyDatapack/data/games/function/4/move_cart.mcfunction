@@ -24,10 +24,10 @@ execute at @s[tag=4super] if entity @a[tag=tempCart,scores={4direction=4}] run p
 
 
 # Tp interaction
-execute unless score @p[tag=tempCart] 4shootCooldown matches 1.. as @s[tag=blue] run tp @e[type=interaction,tag=4cart,tag=blue] ~ ~.5 ~
-execute unless score @p[tag=tempCart] 4shootCooldown matches 1.. as @s[tag=red] run tp @e[type=interaction,tag=4cart,tag=red] ~ ~.5 ~
-execute unless score @p[tag=tempCart] 4shootCooldown matches 1.. as @s[tag=green] run tp @e[type=interaction,tag=4cart,tag=green] ~ ~.5 ~
-execute unless score @p[tag=tempCart] 4shootCooldown matches 1.. as @s[tag=orange] run tp @e[type=interaction,tag=4cart,tag=orange] ~ ~.5 ~
+execute unless score @p[tag=tempCart] 4shootCooldown matches 1.. as @s[tag=blue] run tp @e[type=interaction,tag=4cart,tag=blue] ^ ^.5 ^
+execute unless score @p[tag=tempCart] 4shootCooldown matches 1.. as @s[tag=red] run tp @e[type=interaction,tag=4cart,tag=red] ^ ^.5 ^
+execute unless score @p[tag=tempCart] 4shootCooldown matches 1.. as @s[tag=green] run tp @e[type=interaction,tag=4cart,tag=green] ^ ^.5 ^
+execute unless score @p[tag=tempCart] 4shootCooldown matches 1.. as @s[tag=orange] run tp @e[type=interaction,tag=4cart,tag=orange] ^ ^.5 ^
 execute if score @p[tag=tempCart] 4shootCooldown matches 1.. as @s[tag=blue] run tp @e[type=interaction,tag=4cart,tag=blue] ~ ~-3 ~
 execute if score @p[tag=tempCart] 4shootCooldown matches 1.. as @s[tag=red] run tp @e[type=interaction,tag=4cart,tag=red] ~ ~-3 ~
 execute if score @p[tag=tempCart] 4shootCooldown matches 1.. as @s[tag=green] run tp @e[type=interaction,tag=4cart,tag=green] ~ ~-3 ~

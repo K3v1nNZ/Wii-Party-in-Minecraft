@@ -32,7 +32,3 @@ tag @s remove selectChanged
 
 
 gamemode adventure @s[gamemode=!adventure]
-
-tag @s add ignore
-title @a[tag=playing,tag=!ignore] actionbar [{"translate":"board.GameSelect.Choose.Player","color":"gray","with":[{"selector":"@a[tag=ignore]"}],"font":"ult_effects:top_left_anchor"}," ",{"translate":"board.GameSelect.Choose.Player","color":"gray","with":[{"selector":"@a[tag=ignore]"}],"font":"ult_effects:top_left_anchor"}]
-tag @s remove ignore

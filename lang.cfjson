@@ -23,7 +23,6 @@
     "generic.Red": "Red",
     "generic.Green": "Green",
     "generic.Orange": "Orange",
-    @skip
     @instruction=LimitForcedJevin|125|Bold
     "generic.Blue.Scoreboard": "Blue",
     "generic.Red.Scoreboard": "Red",
@@ -244,10 +243,7 @@
     "board.DiceRoll.RollAgain": "Roll Again",
     "board.DiceRoll.TurnOver": "Turn over!",
     "board.DiceRoll.YouRolled": "You got @EI;%s#Total Roll@ in total!",
-<<<<<<< HEAD
-    "board.DiceRoll.IsMoving":"%s is moving",
-=======
->>>>>>> parent of c4cb2031 (Ult effects)
+
     # Skipping
     % Confusing phrasing, meaning 'use this item to move to your tile'
     "board.DiceRoll.Skip.Name": "Skip to Tile",
@@ -455,7 +451,7 @@
     "scoreboard.StrategySteps.Symbols.12":"||||||||||||",
     @instruction=LimitForcedJevin|125|Bold
     "scoreboard.Board.1":"@SI;%s#scoreboard.Board.Symbol.1@",
-    "scoreboard.Board.2":"@SI;%1$s#scoreboard.Board.Symbol.2@",
+    "scoreboard.Board.2":"@SI;%s#scoreboard.Board.Symbol.2@",
     "scoreboard.Board.V":"@SI;%s#scoreboard.Board.Symbol.V@",
     @clear
 

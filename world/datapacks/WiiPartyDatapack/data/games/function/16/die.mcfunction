@@ -6,7 +6,12 @@ execute if entity @s[team=red] at @s run summon minecraft:firework_rocket ~ ~ ~ 
 execute if entity @s[team=green] at @s run summon minecraft:firework_rocket ~ ~ ~ {LifeTime:15,FireworksItem:{id:"minecraft:firework_rocket",components:{"minecraft:fireworks":{explosions:[{shape:"star",colors:[I;5439331],fade_colors:[I;9568164],has_trail:1b,has_twinkle:1b}]}},count:1}}
 execute if entity @s[team=orange] at @s run summon minecraft:firework_rocket ~ ~ ~ {LifeTime:15,FireworksItem:{id:"minecraft:firework_rocket",components:{"minecraft:fireworks":{explosions:[{shape:"star",colors:[I;16760412],fade_colors:[I;16769195],has_trail:1b,has_twinkle:1b}]}},count:1}}
 
-execute on attacker run tag @s add 16shooter
+# execute on attacker run tag @s add 16shooter
+
+execute as @s[team=blue] run tag @a[tag=16hitBlue] add 16shooter
+execute as @s[team=red] run tag @a[tag=16hitRed] add 16shooter
+execute as @s[team=green] run tag @a[tag=16hitGreen] add 16shooter
+execute as @s[team=orange] run tag @a[tag=16hitOrange] add 16shooter
 
 
 # Randomiser, used to generate a random minigame themed death message

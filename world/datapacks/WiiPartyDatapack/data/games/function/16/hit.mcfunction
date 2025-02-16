@@ -15,3 +15,12 @@ playsound minecraft:item.trident.hit_ground master @a ~ ~ ~ 3 0.75
 title @s times 0 5 20
 title @s title {"text":"c","font":"minecraft:fade"}
 title @s subtitle {"text":"","type":"text"}
+
+execute as @s[team=blue] run tag @a remove 16hitBlue
+execute as @s[team=red] run tag @a remove 16hitRed
+execute as @s[team=green] run tag @a remove 16hitGreen
+execute as @s[team=orange] run tag @a remove 16hitOrange
+execute as @s[team=blue] run tag @a[tag=ingame,tag=16attacker] add 16hitBlue
+execute as @s[team=red] run tag @a[tag=ingame,tag=16attacker] add 16hitRed
+execute as @s[team=green] run tag @a[tag=ingame,tag=16attacker] add 16hitGreen
+execute as @s[team=orange] run tag @a[tag=ingame,tag=16attacker] add 16hitOrange

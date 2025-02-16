@@ -17,6 +17,10 @@ scoreboard players reset @a 16punchtimer
 tag @a remove 16charging
 tag @a remove 16dead
 tag @a remove 16charged
+tag @a remove 16hitBlue
+tag @a remove 16hitRed
+tag @a remove 16hitGreen
+tag @a remove 16hitOrange
 
 # Kills all entities
 kill @e[type=interaction,tag=16interact]

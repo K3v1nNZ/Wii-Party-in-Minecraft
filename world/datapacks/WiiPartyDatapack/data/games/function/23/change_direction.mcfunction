@@ -1,4 +1,4 @@
-playsound minecraft:block.note_block.hat master @s ~ ~ ~ 1
+playsound minecraft:block.note_block.cow_bell master @s ~ ~ ~ 1 1.5
 
 $tag @s remove $(val)
 

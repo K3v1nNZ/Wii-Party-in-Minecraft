@@ -54,6 +54,7 @@ void main() {
         );
 
         gl_Position.xy += gl_Position.w * offset;
+
     } else {
         gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
     }
