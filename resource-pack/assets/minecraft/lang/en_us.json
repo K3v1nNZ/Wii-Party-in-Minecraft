@@ -217,7 +217,7 @@
 "board.Tiles.Dragon.Start.Header": "Dragon Wall!",
 "board.Tiles.Dragon.Start.Sub": "Roll at least a 4",
 "board.Tiles.Final.Start": "Final Challenge!",
-"board.Tiles.Final.Info": "Roll at least a 6 to defeat PIRATE PHIL!!!",
+"board.Tiles.Final.Info": "Roll at least a 6 to defeat %s!!!",
 "board.Tiles.Final.Next": "Dont worry, you will be able to use your extra dice next round if you place 1st-3rd!",
 "board.Tiles.Final.Fail": "EPIC FAIL",
 "board.Tiles.Final.Victory!": "VICTORY!",
