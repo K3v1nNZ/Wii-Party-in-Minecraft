@@ -35,6 +35,8 @@ title @s actionbar ""
 tag @s remove 4super
 scoreboard players reset @s 4powerup
 
+execute if score ingame= 4scores matches 0 run return fail 
+
 # Stores the number of players who arent dead in the left= score. Used to determine what position tag to give the player
 execute store result score left= 4scores if entity @a[tag=ingame,tag=!4dead]
     # If there is one other player left, they are 2nd

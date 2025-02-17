@@ -2,6 +2,7 @@ tag @e remove game38
 execute if score entity= 38mods matches 2 positioned 38000 15 38000 run tag @e[type=minecraft:cat,distance=..100,sort=random,limit=1] add game38
 execute if score entity= 38mods matches 1 positioned 38000 15 38000 run tag @e[type=minecraft:wolf,distance=..100,sort=random,limit=1] add game38
 execute if score entity= 38mods matches 3 positioned 38000 15 38000 run tag @e[type=minecraft:fox,distance=..100,sort=random,limit=1,nbt={Type:"snow"}] add game38
+execute if score entity= 38mods matches 3 positioned 38000 15 38000 run tag @e[type=minecraft:fox,distance=..100,sort=random,limit=1,nbt={Type:"snow"}] add 38id
 
 #execute if score entity= 38mods matches 2 positioned 38000 15 38000 run tp @e[type=minecraft:cat,distance=..100,tag=!game38] ~ -1000 ~
 #execute if score entity= 38mods matches 1 positioned 38000 15 38000 run tp @e[type=minecraft:wolf,distance=..100,tag=!game38] ~ -1000 ~

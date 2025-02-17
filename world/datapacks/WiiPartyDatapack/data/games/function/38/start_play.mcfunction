@@ -23,7 +23,7 @@ scoreboard players reset practice= practice
 function games:38/rm_mobs
 
 # Set up the camera
-function games:38/camera/setup
+# function games:38/camera/setup
 
 # Shows that the game is now beginning
 scoreboard players set ingame= 38scores 1

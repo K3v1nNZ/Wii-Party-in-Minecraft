@@ -13,6 +13,7 @@ title @a[tag=ingame,team=green] subtitle {"translate":"board.Tiles.Final.Defeat"
 title @a[tag=ingame,team=orange] subtitle {"translate":"board.Tiles.Final.Defeat","color":"gold","bold":true}
 title @a[tag=playing] title ""
 execute at @a[tag=turn] run playsound entity.wither.death master @a ~ ~ ~ 20 0.75 1
+stopsound @a[tag=playing] voice
 
 # Sets all the diceDespawn timers to the duration= score so that they both explode at the same time
 scoreboard players operation @e[type=minecraft:chicken,tag=diceroll] diceDespawn = duration= diceDespawn

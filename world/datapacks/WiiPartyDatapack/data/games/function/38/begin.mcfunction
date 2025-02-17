@@ -41,3 +41,5 @@ team leave @e[tag=game38]
 effect give @e[tag=game38] minecraft:glowing infinite 0 true
 
 function games:38/play_song
+
+function games:38/camera/setup

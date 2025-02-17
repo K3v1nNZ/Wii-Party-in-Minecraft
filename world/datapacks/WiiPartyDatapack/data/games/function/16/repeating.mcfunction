@@ -1,4 +1,4 @@
-kill @e[type=arrow]
+kill @e[type=#minecraft:arrows]
 
 scoreboard players remove @a[tag=ingame,scores={16punchtimer=0..}] 16punchtimer 1
 execute as @a[tag=ingame,scores={16punchtimer=0}] run attribute @s generic.attack_speed base set 0.0

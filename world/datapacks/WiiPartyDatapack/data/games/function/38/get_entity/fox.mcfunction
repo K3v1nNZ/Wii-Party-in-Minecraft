@@ -1,7 +1,7 @@
 tag @e[type=minecraft:fox,tag=game38] add game38box
 execute at @e[type=minecraft:fox,tag=game38] run summon minecraft:slime ~ ~-11.25 ~ {Size:6,NoAI:1b,Silent:1b,Tags:["game38box"],active_effects:[{id:"minecraft:invisibility",duration:1000000,show_particles:0b}]}
 # scoreboard players set min= 38scores 12
-scoreboard players set min= 38scores 6
+scoreboard players set min= 38scores 5
 execute as @e[type=minecraft:slime,tag=game38box] at @s run tp ~ ~10 ~
 execute unless predicate games:38look run scoreboard players set min= 38scores 0
 # execute at @s unless entity @e[type=minecraft:fox,distance=..10,tag=game38] run scoreboard players set min= 38scores 0
