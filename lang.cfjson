@@ -693,7 +693,7 @@
     "game.TropicalPunch.How.1|2|3": "@EI;%s#Bullet Point (-)@ Hold right click to charge your punch|@EI;%s#Bullet Point (-)@ Release to punch players infront of you|@EI;%s#Bullet Point (-)@ The last player standing wins!",
     %% Instructions
     "game.TropicalPunch.Info.1": "Hold @SI;%1$s#control.RightClick@ to charge!",
-    "game.TropicalPunch.Info.2": "@SI;%1$s#control.LeftClick@ to punch!",
+    "game.TropicalPunch.Info.2": "@SI;%1$s#control.RightClick@ to punch!",
     %%%%%%%% Death Messages
     "deathMessages.TropicalPunch1": "@EI;%1$s#Player Name@ was tropically punched by @EI;%2$s#Player Name@",
     "deathMessages.TropicalPunch2": "@EI;%1$s#Player Name@ was thrown overboard by @EI;%2$s#Player Name@",

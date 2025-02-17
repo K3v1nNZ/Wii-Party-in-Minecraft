@@ -1,4 +1,4 @@
-kill @e[type=spectral_arrow]
+kill @e[type=arrow]
 
 scoreboard players remove @a[tag=ingame,scores={16punchtimer=0..}] 16punchtimer 1
 execute as @a[tag=ingame,scores={16punchtimer=0}] run attribute @s generic.attack_speed base set 0.0
@@ -16,7 +16,8 @@ scoreboard players reset @a[tag=!16charging] 16charge
 tag @a remove 16charging
 
 # Use Punch
-# execute if score ingame= 16scores matches 2 as @a[tag=ingame,tag=16charged] at @s anchored eyes if predicate games:16punched unless score @s 16cooldown matches 1.. run function games:16/punch
+execute as @a[tag=ingame,scores={16punchDelay=0}] at @s run function games:16/punch
+scoreboard players remove @a[tag=ingame,scores={16punchDelay=0..}] 16punchDelay 1
 
 # Give/Kill items
 execute if score ingame= 16scores matches 2 as @a[tag=ingame,tag=!16dead,tag=!16punched,tag=!16charged] unless predicate games:16crossbow run function games:16/give_crossbow
@@ -25,6 +26,9 @@ kill @e[type=item,nbt={Item:{id:"minecraft:crossbow",count:1,components:{"minecr
 kill @e[type=item,nbt={Item:{id:"minecraft:crossbow",count:1,components:{"minecraft:custom_data":{16punch:2}}}}]
 kill @e[type=item,nbt={Item:{id:"minecraft:carrot_on_a_stick",count:1,components:{"minecraft:custom_data":{16temp:1b}}}}]
 kill @e[type=item,nbt={Item:{id:"minecraft:arrow",count:1,components:{"minecraft:custom_data":{16punch:1b}}}}]
+
+clear @a[tag=playing,tag=!ingame]
+clear @a[tag=16dead]
 
 # Kill arrows
 execute as @e[type=arrow,tag=16arrow] run scoreboard players add @s 16arrow 1

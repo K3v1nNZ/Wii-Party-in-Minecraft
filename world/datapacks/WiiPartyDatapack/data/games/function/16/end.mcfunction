@@ -41,6 +41,7 @@ schedule clear games:16/play_song
 # Enable movement
 execute as @a[tag=ingame] run attribute @s minecraft:generic.movement_speed base set 0.1
 execute as @a[tag=ingame] run attribute @s minecraft:generic.jump_strength base set 0.41999998688697815
+execute as @a[tag=ingame] run attribute @s player.entity_interaction_range base set 3.0
 
 effect clear @a[tag=ingame] haste
 

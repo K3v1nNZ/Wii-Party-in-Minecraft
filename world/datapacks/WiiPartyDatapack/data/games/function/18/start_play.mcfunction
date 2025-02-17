@@ -28,4 +28,4 @@ execute store result score ingame= 18scores if entity @a[tag=ingame]
 # Clears actionbar title
 title @a[tag=playing] actionbar ""
 
-schedule function games:18/play_intro 12t
+schedule function games:18/play_intro 22t

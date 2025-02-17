@@ -38,6 +38,4 @@ execute if score players= 5scores matches 3 run fill 5002 0 5012 5003 2 5010 min
     # Right
 execute if score players= 5scores matches 3 run fill 5006 0 5012 5007 2 5010 minecraft:magenta_concrete
 
-execute as @a[tag=playing] at @s run playsound music:lucky_launch_loop_1488 voice @s
-
 schedule function games:5/play_intro 10t

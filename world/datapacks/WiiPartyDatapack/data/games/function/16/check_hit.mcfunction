@@ -6,7 +6,7 @@ scoreboard players set hit= 16scores 1
 
 # Summon market at target facing shooter
 summon marker ~ ~ ~ {Tags:["16rotCheck"]}
-execute at @p[tag=16rayHit] rotated as @s rotated ~ 0 run tp @n[tag=16rotCheck] ^ ^ ^1
+execute at @p[tag=16rayHit] rotated as @s rotated ~ 0 run tp @n[tag=16rotCheck] ^ ^ ^0.5
 tag @s add 16temp
 execute as @n[tag=16rotCheck] at @s run tp @s ~ ~ ~ facing entity @p[tag=16temp]
 tag @s remove 16temp
