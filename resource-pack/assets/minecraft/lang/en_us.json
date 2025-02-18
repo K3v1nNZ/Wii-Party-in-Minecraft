@@ -638,9 +638,11 @@
 "game.Shutterpup.Cooldown": "Cooldown",
 "
 §lTo play this map you must enable the resoucepack.": "",
+"\n§lTo play this map you must enable the resoucepack.": "",
 "You can find it inside the world file as §l'resources.zip'
 
 ": "",
+"You can find it inside the world file as §l'resources.zip'\n\n": "",
 "advancements.island.phil": "Party Poppin Pirate Phil",
 "generic.PinkColor": "\u00a7d",
 "menu.options": "\u00a7dOptions...",
