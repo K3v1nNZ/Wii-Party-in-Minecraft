@@ -28,3 +28,4 @@ execute as @a[tag=ingame,team=blue] at @s anchored eyes run summon interaction ~
 execute as @a[tag=ingame,team=red] at @s anchored eyes run summon interaction ~ ~ ~ {Tags:["16interact","red"],width:1f, response:0b,  height:1.5f}
 execute as @a[tag=ingame,team=green] at @s anchored eyes run summon interaction ~ ~ ~ {Tags:["16interact","green"],width:1f, response:0b,  height:1.5f}
 execute as @a[tag=ingame,team=orange] at @s anchored eyes run summon interaction ~ ~ ~ {Tags:["16interact","orange"],width:1f, response:0b,  height:1.5f}
+execute as @a[tag=ingame] run function games:16/interaction_small

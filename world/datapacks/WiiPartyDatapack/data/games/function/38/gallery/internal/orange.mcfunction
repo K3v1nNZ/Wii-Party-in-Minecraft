@@ -15,6 +15,6 @@ execute if score continue= 38scores matches 0 run title @a[tag=playing] actionba
 execute if score continue= 38scores matches 0 run title @a[tag=playing] title {"nbt":"colors.orange","storage":"minecraft:config","interpret":true,"extra":[{"score":{"name":"correct=","objective":"38scores"},"type":"score"},{"text":"/","type":"text"},{"score":{"name":"total=","objective":"38scores"},"type":"score"}],"source":"storage","type":"nbt"}
 execute if score continue= 38scores matches 0 run scoreboard players operation @a[team=orange] 38scores = correct= 38scores
 
-execute if score continue= 38scores matches 1 run schedule function games:38/gallery/internal/orange 1.5s
-execute if score continue= 38scores matches 0 run schedule function games:38/camera/enddisplay 5s
-execute if score continue= 38scores matches 0 run schedule function games:38/end_game 5s
+execute if score continue= 38scores matches 1 run schedule function games:38/gallery/internal/orange 1s
+execute if score continue= 38scores matches 0 run schedule function games:38/camera/enddisplay 3s
+execute if score continue= 38scores matches 0 run schedule function games:38/end_game 3s

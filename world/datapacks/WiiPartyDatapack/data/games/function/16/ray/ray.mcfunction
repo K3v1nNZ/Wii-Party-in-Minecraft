@@ -5,4 +5,4 @@ scoreboard players add #distance 16scores 1
 
 #Advance forward and run the ray again if no entity and/or block was found.
 
-execute if score #hit 16scores matches 0 if score #distance 16scores matches ..40 positioned ^ ^ ^0.1 run function games:16/ray/ray
+execute if score #hit 16scores matches 0 if score #distance 16scores matches ..80 positioned ^ ^ ^0.05 run function games:16/ray/ray

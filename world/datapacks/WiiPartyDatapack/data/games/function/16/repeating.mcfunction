@@ -10,7 +10,9 @@ execute if score ingame= 16scores matches 2 as @a[tag=ingame,tag=!16dead,tag=!16
 # Charge logic
 scoreboard players remove @a[tag=ingame,scores={16cooldown=1..}] 16cooldown 1
 scoreboard players add @a[tag=16charging] 16charge 1
-execute as @a[scores={16charge=18},tag=!16charged] at @s run function games:16/charged
+execute if score ingame= 16scores matches 2 as @a[tag=!16charged] run function games:16/interaction_small
+execute if score ingame= 16scores matches 2 as @a[scores={16charge=16}] run function games:16/interaction_big
+execute as @a[scores={16charge=17},tag=!16charged] at @s run function games:16/charged
 # execute as @a[scores={16charge=20..}] at @s run function games:16/punch
 scoreboard players reset @a[tag=!16charging] 16charge
 tag @a remove 16charging
@@ -44,18 +46,10 @@ execute store result score alive= 16scores if entity @a[tag=ingame,tag=!16dead]
 execute if score ingame= 16scores matches 2 if score alive= 16scores matches ..1 run function games:16/finish
 
 # Tp interactions
-execute as @a[tag=ingame,team=blue,tag=16charged] at @s anchored eyes positioned ^ ^ ^0.5 run tp @e[type=interaction,tag=blue,tag=16interact] ~ ~-0.5 ~
-execute as @a[tag=ingame,team=red,tag=16charged] at @s anchored eyes positioned ^ ^ ^0.5 run tp @e[type=interaction,tag=red,tag=16interact] ~ ~-0.5 ~
-execute as @a[tag=ingame,team=green,tag=16charged] at @s anchored eyes positioned ^ ^ ^0.5 run tp @e[type=interaction,tag=green,tag=16interact] ~ ~-0.5 ~
-execute as @a[tag=ingame,team=orange,tag=16charged] at @s anchored eyes positioned ^ ^ ^0.5 run tp @e[type=interaction,tag=orange,tag=16interact] ~ ~-0.5 ~
-execute as @a[tag=ingame,team=blue,scores={16charge=1..}] at @s anchored eyes positioned ^ ^ ^0.5 run tp @e[type=interaction,tag=blue,tag=16interact] ~ ~-0.5 ~
-execute as @a[tag=ingame,team=red,scores={16charge=1..}] at @s anchored eyes positioned ^ ^ ^0.5 run tp @e[type=interaction,tag=red,tag=16interact] ~ ~-0.5 ~
-execute as @a[tag=ingame,team=green,scores={16charge=1..}] at @s anchored eyes positioned ^ ^ ^0.5 run tp @e[type=interaction,tag=green,tag=16interact] ~ ~-0.5 ~
-execute as @a[tag=ingame,team=orange,scores={16charge=1..}] at @s anchored eyes positioned ^ ^ ^0.5 run tp @e[type=interaction,tag=orange,tag=16interact] ~ ~-0.5 ~
-execute as @a[tag=ingame,team=blue,tag=!16charged] unless score @s 16charge matches 1.. at @s anchored eyes run tp @e[type=interaction,tag=blue,tag=16interact] ~ ~-10 ~
-execute as @a[tag=ingame,team=red,tag=!16charged] unless score @s 16charge matches 1.. at @s anchored eyes run tp @e[type=interaction,tag=red,tag=16interact] ~ ~-10 ~
-execute as @a[tag=ingame,team=green,tag=!16charged] unless score @s 16charge matches 1.. at @s anchored eyes run tp @e[type=interaction,tag=green,tag=16interact] ~ ~-10 ~
-execute as @a[tag=ingame,team=orange,tag=!16charged] unless score @s 16charge matches 1.. at @s anchored eyes run tp @e[type=interaction,tag=orange,tag=16interact] ~ ~-10 ~
+execute as @a[tag=ingame,team=blue] at @s anchored eyes positioned ^ ^ ^0.25 run tp @e[type=interaction,tag=blue,tag=16interact] ~ ~-0.5 ~
+execute as @a[tag=ingame,team=red] at @s anchored eyes positioned ^ ^ ^0.25 run tp @e[type=interaction,tag=red,tag=16interact] ~ ~-0.5 ~
+execute as @a[tag=ingame,team=green] at @s anchored eyes positioned ^ ^ ^0.25 run tp @e[type=interaction,tag=green,tag=16interact] ~ ~-0.5 ~
+execute as @a[tag=ingame,team=orange] at @s anchored eyes positioned ^ ^ ^0.25 run tp @e[type=interaction,tag=orange,tag=16interact] ~ ~-0.5 ~
 
 # Actionbar controls
 execute if score ingame= 16scores matches 2 run title @a[tag=ingame,team=blue,tag=!16charged] actionbar {"translate":"game.TropicalPunch.Info.1","color":"gray","with":[{"translate":"control.RightClick","color":"#0088ff","bold":true}]}
