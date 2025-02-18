@@ -271,6 +271,7 @@
   # Generic Tiles
     "board.Tiles.Surprise": "Surprise Time!",
     "board.Tiles.UpdatedPositionsText": "Updated Positions:",
+    @skip
     @instruction=ForceExport
     "board.Tiles.UpdatedPositions": "%1$s: %2$s §l> %3$s",
     "board.Tiles.Difference+": " [+%s]",
@@ -282,6 +283,7 @@
     "board.Tiles.HasBeenChosen": "@EI;%s#Player Name@ has been chosen!",
     "board.Tiles.HasBeenChosenDefault": "@EI;%s#Player Name@ has been chosen by default!",
     "board.Tiles.PlayerNumbers": "Player Numbers:",
+    @skip
     @instruction=ForceExport
     "board.Tiles.1-2": "1-2: %s",
     "board.Tiles.3-4": "3-4: %s",
@@ -397,6 +399,7 @@
     "game.CommuterCountName": "Commuter Count",
 
     # Scoreboard Icons
+    @skip
     @instruction=ForceExport
     "scoreboard.Board.Symbol.1":"0",
     "scoreboard.Board.Symbol.2":"00",
@@ -459,16 +462,18 @@
 
 
 
-
+    @skip
     @instruction=ForceExport
     @instruction=LimitForcedJevin|126
     "scoreboard.DiceyDescent":"@SI;%1$s#scoreboard.DiceyDescent.Symbol@ @SI;%2$s#scoreboard.DiceyDescent.Symbol@",
     "scoreboard.ZombieTag":"@SI;%1$s#scoreboard.ZombieTag.Symbol@",
     @clear
+    @skip
     @instruction=ForceExport
     @instruction=LimitForcedJevin|126|Bold
     "scoreboard.BarrelDaredevil":"@SI;%1$s#scoreboard.BarrelDaredevil.Symbols.8@@SI;%2$s#scoreboard.BarrelDaredevil.Symbols.8@",
     @clear
+    @skip
     @instruction=ForceExport
     @instruction=LimitForcedJevin|126
     "scoreboard.BackAttack":"@SI;%1$s#scoreboard.BackAttack.Symbol@",
@@ -488,6 +493,7 @@
     "scoreboard.HammerHeads.2":"@SI;%1$s#scoreboard.HammerHeads.Symbol.2@",
     "scoreboard.StopWatchers":"@SI;%1$s#scoreboard.StopWatchers.Symbol@",
     @clear
+    @skip
     @instruction=ForceExport
     @instruction=LimitForcedJevin|126|Bold
     "scoreboard.FaceFlip":"@SI;%1$s#scoreboard.FaceFlip.Symbol@ @SI;%2$s#scoreboard.FaceFlip.Symbol@ @SI;%3$s#scoreboard.FaceFlip.Symbol@",
@@ -693,7 +699,7 @@
     # Tropical Punch
     "game.TropicalPunchName": "Tropical Punch",
     % How To Play
-    "game.TropicalPunch.How.1|2|3": "@EI;%s#Bullet Point (-)@ Hold right click to charge your punch|@EI;%s#Bullet Point (-)@ Left click tp punch players infront of you|@EI;%s#Bullet Point (-)@ The last player standing wins!",
+    "game.TropicalPunch.How.1|2|3": "@EI;%s#Bullet Point (-)@ Hold right click to charge your punch|@EI;%s#Bullet Point (-)@ Left click to punch players infront of you|@EI;%s#Bullet Point (-)@ The last player standing wins!",
     %% Instructions
     "game.TropicalPunch.Info.1": "Hold @SI;%1$s#control.RightClick@ to charge!",
     "game.TropicalPunch.Info.2": "@SI;%1$s#control.LeftClick@ to punch!",
@@ -857,7 +863,7 @@
 
 
 
-
+    @skip
     @instruction=ForceExport
     "\\n§lTo play this map you must enable the resoucepack.": "",
     "You can find it inside the world file as §l'resources.zip'\\n\\n": "",
@@ -886,6 +892,7 @@
     @skip
     "key.mouse.right": "Right Click",
     @clear
+    @skip
     @instruction=ForceExport
     "container.isLocked": "",
     "mount.onboard": "",
