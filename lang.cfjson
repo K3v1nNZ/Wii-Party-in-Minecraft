@@ -856,8 +856,8 @@
 
 
     @skip
-    "\n§lTo play this map you must enable the resoucepack.": "",
-    "You can find it inside the world file as §l'resources.zip'\n\n": "",
+    "\\n§lTo play this map you must enable the resoucepack.": "",
+    "You can find it inside the world file as §l'resources.zip'\\n\\n": "",
     @clear
 
 

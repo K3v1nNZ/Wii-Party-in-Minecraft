@@ -58,8 +58,8 @@ execute as @s[tag=firstJoined] at @s run function lobby:play_menu
 tellraw @s ""
 tellraw @s ""
 tellraw @s {"translate":"lobby.Music.Info","color":"light_purple"}
-tellraw @s {"color":"light_purple","translate":"\n§lTo play this map you must enable the resoucepack."}
-tellraw @s {"color":"light_purple","translate":"You can find it inside the world file as §l'resources.zip'\n\n"}
+tellraw @s {"color":"light_purple","translate":"\\n§lTo play this map you must enable the resoucepack."}
+tellraw @s {"color":"light_purple","translate":"You can find it inside the world file as §l'resources.zip'\\n\\n"}
 
 forceload add -525 541
 
