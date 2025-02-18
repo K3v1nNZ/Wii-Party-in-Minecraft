@@ -23,7 +23,7 @@
     "generic.Red": "Red",
     "generic.Green": "Green",
     "generic.Orange": "Orange",
-    @instruction=LimitForcedJevin|125|Bold
+    @instruction=LimitForcedJevin|126|Bold
     "generic.Blue.Scoreboard": "Blue",
     "generic.Red.Scoreboard": "Red",
     "generic.Green.Scoreboard": "Green",
@@ -121,7 +121,7 @@
 
     # Translations Billboard
     "lobby.Translations.Header":"Translations",
-    @instruction=Limit|125
+    @instruction=Limit|126
     "lobby.Translations.Subheader.1.1|2":"Thanks to all|our translators :)",
     "lobby.Translations.Subheader.2.1|2":"Join the @T;?lobby.Discord.Name@|to help!",
     @clear
@@ -449,7 +449,7 @@
     "scoreboard.StrategySteps.Symbols.10":"||||||||||",
     "scoreboard.StrategySteps.Symbols.11":"|||||||||||",
     "scoreboard.StrategySteps.Symbols.12":"||||||||||||",
-    @instruction=LimitForcedJevin|125|Bold
+    @instruction=LimitForcedJevin|126|Bold
     "scoreboard.Board.1":"@SI;%s#scoreboard.Board.Symbol.1@",
     "scoreboard.Board.2":"@SI;%s#scoreboard.Board.Symbol.2@",
     "scoreboard.Board.V":"@SI;%s#scoreboard.Board.Symbol.V@",
@@ -459,16 +459,16 @@
 
 
     @skip
-    @instruction=LimitForcedJevin|125
+    @instruction=LimitForcedJevin|126
     "scoreboard.DiceyDescent":"@SI;%1$s#scoreboard.DiceyDescent.Symbol@ @SI;%2$s#scoreboard.DiceyDescent.Symbol@",
     "scoreboard.ZombieTag":"@SI;%1$s#scoreboard.ZombieTag.Symbol@",
     @clear
     @skip
-    @instruction=LimitForcedJevin|125|Bold
+    @instruction=LimitForcedJevin|126|Bold
     "scoreboard.BarrelDaredevil":"@SI;%1$s#scoreboard.BarrelDaredevil.Symbols.8@@SI;%2$s#scoreboard.BarrelDaredevil.Symbols.8@",
     @clear
     @skip
-    @instruction=LimitForcedJevin|125
+    @instruction=LimitForcedJevin|126
     "scoreboard.BackAttack":"@SI;%1$s#scoreboard.BackAttack.Symbol@",
     "scoreboard.LuckyLaunch":"@SI;%1$s#scoreboard.LuckyLaunch.Symbol@",
     "scoreboard.DerbyDash":"@SI;%1$s#scoreboard.DerbyDash.Symbol@",
@@ -486,8 +486,9 @@
     "scoreboard.HammerHeads.2":"@SI;%1$s#scoreboard.HammerHeads.Symbol.2@",
     "scoreboard.StopWatchers":"@SI;%1$s#scoreboard.StopWatchers.Symbol@",
     @clear
-    @instruction=LimitForcedJevin|125|Bold
-    "scoreboard.FaceFlip":"@SI;%1$s#scoreboard.FaceFlip.Symbol@ @SI;%1$s#scoreboard.FaceFlip.Symbol@ @SI;%1$s#scoreboard.FaceFlip.Symbol@",
+    @skip
+    @instruction=LimitForcedJevin|126|Bold
+    "scoreboard.FaceFlip":"@SI;%1$s#scoreboard.FaceFlip.Symbol@ @SI;%2$s#scoreboard.FaceFlip.Symbol@ @SI;%3$s#scoreboard.FaceFlip.Symbol@",
     "scoreboard.WalkOff":"@SI;%1$s#scoreboard.WalkOff.Symbol@",
     "scoreboard.StrategySteps":"@SI;%1$s#scoreboard.StrategySteps.Symbols.6@@SI;%2$s#scoreboard.StrategySteps.Symbols.6@",
     @clear
