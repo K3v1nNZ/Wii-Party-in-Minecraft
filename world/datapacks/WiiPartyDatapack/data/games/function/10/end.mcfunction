@@ -53,3 +53,5 @@ bossbar set minecraft:10orangetimer players
 clear @a[tag=ingame] minecraft:carrot_on_a_stick[minecraft:custom_data={10gun:1b}]
 clear @a[tag=ingame] minecraft:carrot_on_a_stick[minecraft:custom_data={popgun:1b}]
 
+xp set @a[tag=ingame] 0 points
+xp set @a[tag=ingame] 0 levels

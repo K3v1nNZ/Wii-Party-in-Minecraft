@@ -24,6 +24,8 @@ tag @a remove 35finished
 
 # Kills all entities
 kill @e[type=marker,tag=35step]
+kill @e[type=text_display,tag=35step]
+
 
 # Puts all players who have died back into adventure
 gamemode adventure @a[tag=ingame]

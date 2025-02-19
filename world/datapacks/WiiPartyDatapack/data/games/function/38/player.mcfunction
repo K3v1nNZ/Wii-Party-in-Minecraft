@@ -38,6 +38,8 @@ scoreboard players operation mod= 38cd %= 4= 38cd
 scoreboard players set temp= 38pics 10
 scoreboard players operation temp= 38pics -= @s 38pics
 
+
+
 execute if score @s 38pics matches ..9 if score @s 38cd matches 1.. run title @s[team=blue] actionbar {"nbt":"colors.blue","storage":"minecraft:config","interpret":true,"extra":[{"translate":"game.Shutterpup.Remaining"},{"text":": ","type":"text"},{"score":{"name":"temp=","objective":"38pics"},"type":"score"},{"text":"/10 | ","type":"text"},{"translate":"game.Shutterpup.Cooldown"},{"text":": ","type":"text"},{"score":{"name":"s=","objective":"38cd"},"type":"score"},{"text":".","type":"text"},{"score":{"name":"ms=","objective":"38cd"},"type":"score"},{"text":"s","type":"text"}],"source":"storage","type":"nbt"}
 execute if score @s 38pics matches ..9 if score @s 38cd matches ..0 run title @s[team=blue] actionbar {"nbt":"colors.blue","storage":"minecraft:config","interpret":true,"extra":[{"translate":"game.Shutterpup.Remaining"},{"text":": ","type":"text"},{"score":{"name":"temp=","objective":"38pics"},"type":"score"},{"text":"/10","type":"text"}],"source":"storage","type":"nbt"}
 execute if score @s 38pics matches 10.. run title @s[team=blue] actionbar {"nbt":"colors.blue","storage":"minecraft:config","interpret":true,"extra":[{"translate":"game.Shutterpup.Remaining"},{"text":": 0/10","type":"text"}],"source":"storage","type":"nbt"}
@@ -61,3 +63,6 @@ execute if score @s rightClick matches 1.. if score @s 38pics matches ..9 if sco
 execute at @s[scores={rightClick=1..,38pics=..9,38cd=..0}] run playsound minecraft:block.tripwire.click_on master @s ~ ~ ~ 1 1
 scoreboard players add @s[scores={rightClick=1..,38pics=..9,38cd=..0}] 38pics 1
 scoreboard players set @s[scores={rightClick=1..,38pics=..9,38cd=..0}] 38cd 40
+
+execute unless score @s 38cd matches 1.. run function games:38/xp_reset
+execute if score @s 38cd matches 1.. run function games:38/xp_set

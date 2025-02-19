@@ -72,3 +72,6 @@ title @s title ""
 title @s subtitle ""
 
 difficulty easy
+
+xp set @s 0 points
+xp set @s 0 levels

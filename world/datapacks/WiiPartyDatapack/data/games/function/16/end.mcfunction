@@ -50,3 +50,11 @@ execute as @a[tag=ingame] run attribute @s generic.attack_speed base set 4.0
 clear @a[tag=ingame] crossbow
 clear @a[tag=ingame] carrot_on_a_stick
 clear @a[tag=ingame] arrow
+
+team modify blue collisionRule never
+team modify red collisionRule never
+team modify green collisionRule never
+team modify orange collisionRule never
+
+xp set @a[tag=ingame] 0 points
+xp set @a[tag=ingame] 0 levels

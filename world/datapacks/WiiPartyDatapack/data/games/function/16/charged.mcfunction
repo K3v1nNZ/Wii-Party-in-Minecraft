@@ -1,4 +1,4 @@
-playsound item.trident.hit master @s ~ ~ ~ 1 0.5
+playsound minecraft:entity.blaze.hurt master @a ~ ~ ~ 1 1.5
 
 tag @s add 16charged
 

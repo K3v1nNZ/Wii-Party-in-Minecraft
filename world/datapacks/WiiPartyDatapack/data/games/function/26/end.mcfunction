@@ -73,3 +73,6 @@ schedule clear games:26/start_title
 schedule clear games:26/remove_lecterns
 schedule clear games:26/begin
 schedule clear games:26/play_song
+
+xp set @a[tag=ingame] 0 points
+xp set @a[tag=ingame] 0 levels

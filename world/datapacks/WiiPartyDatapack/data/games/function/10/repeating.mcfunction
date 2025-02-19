@@ -15,6 +15,10 @@ execute if score ingame= 10scores matches 1.. as @e[type=marker,tag=10marker,tag
 
 scoreboard players remove @a[tag=ingame,scores={10cooldown=1..}] 10cooldown 1
 execute if score ingame= 10scores matches 2 as @a[tag=ingame,scores={rightClick=1..}] unless score @s 10cooldown matches 1.. at @s run function games:10/shoot
+# SET XP
+execute as @a[tag=ingame] unless score @s 10cooldown matches 1.. run function games:10/xp_reset
+execute if score ingame= 10scores matches 2 as @a[tag=ingame] if score @s 10cooldown matches 1.. run function games:10/xp_set
+#
 
 execute as @e[type=armor_stand,tag=10can,tag=blue] at @s if block ~ 10 ~ red_wool run function games:10/hit_wall {"val":"0"}
 execute as @e[type=armor_stand,tag=10can,tag=blue] at @s if block ~ 10 ~ pink_wool run function games:10/hit_wall {"val":"-0"}

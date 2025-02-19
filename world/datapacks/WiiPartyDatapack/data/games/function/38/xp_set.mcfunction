@@ -1,0 +1,45 @@
+
+xp set @s 4475 levels
+
+xp set @s[scores={38cd=1}] 1000 points
+xp set @s[scores={38cd=2}] 2000 points
+xp set @s[scores={38cd=3}] 3000 points
+xp set @s[scores={38cd=4}] 4000 points
+xp set @s[scores={38cd=5}] 5000 points
+xp set @s[scores={38cd=6}] 6000 points
+xp set @s[scores={38cd=7}] 7000 points
+xp set @s[scores={38cd=8}] 8000 points
+xp set @s[scores={38cd=9}] 9000 points
+xp set @s[scores={38cd=10}] 10000 points
+xp set @s[scores={38cd=11}] 11000 points
+xp set @s[scores={38cd=12}] 12000 points
+xp set @s[scores={38cd=13}] 13000 points
+xp set @s[scores={38cd=14}] 14000 points
+xp set @s[scores={38cd=15}] 15000 points
+xp set @s[scores={38cd=16}] 16000 points
+xp set @s[scores={38cd=17}] 17000 points
+xp set @s[scores={38cd=18}] 18000 points
+xp set @s[scores={38cd=19}] 19000 points
+xp set @s[scores={38cd=20}] 20000 points
+xp set @s[scores={38cd=21}] 21000 points
+xp set @s[scores={38cd=22}] 22000 points
+xp set @s[scores={38cd=23}] 23000 points
+xp set @s[scores={38cd=24}] 24000 points
+xp set @s[scores={38cd=25}] 25000 points
+xp set @s[scores={38cd=26}] 26000 points
+xp set @s[scores={38cd=27}] 27000 points
+xp set @s[scores={38cd=28}] 28000 points
+xp set @s[scores={38cd=29}] 29000 points
+xp set @s[scores={38cd=30}] 30000 points
+xp set @s[scores={38cd=31}] 31000 points
+xp set @s[scores={38cd=32}] 32000 points
+xp set @s[scores={38cd=33}] 33000 points
+xp set @s[scores={38cd=34}] 34000 points
+xp set @s[scores={38cd=35}] 35000 points
+xp set @s[scores={38cd=36}] 36000 points
+xp set @s[scores={38cd=37}] 37000 points
+xp set @s[scores={38cd=38}] 38000 points
+xp set @s[scores={38cd=39}] 39000 points
+xp set @s[scores={38cd=40}] 40000 points
+
+xp set @s 0 levels

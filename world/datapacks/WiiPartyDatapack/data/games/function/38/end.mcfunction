@@ -42,3 +42,6 @@ schedule clear games:38/play_song
 effect clear @a[tag=ingame] minecraft:invisibility
 
 scoreboard players set enabled= specOptions 0
+
+xp set @a[tag=ingame] 0 points
+xp set @a[tag=ingame] 0 levels

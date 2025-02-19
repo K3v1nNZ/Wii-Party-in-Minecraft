@@ -30,5 +30,10 @@ execute if score ingame= 26scores matches 2 run effect clear @s[scores={26hitCoo
 scoreboard players remove @s[scores={26hitCooldown=1..}] 26hitCooldown 1
 scoreboard players remove @s[scores={26aniCooldown=1..}] 26aniCooldown 1
 
+# SET XP
+execute as @a[tag=ingame] unless score @s 26hitCooldown matches 1.. run function games:26/xp_reset
+execute as @a[tag=ingame] if score @s 26hitCooldown matches 1.. run function games:26/xp_set
+#
+
 # Runs the cooldown_title function if the player is on cooldown curently
-execute if score ingame= 26scores matches 2 as @s[scores={26hitCooldown=1..}] run function games:26/cooldown_title
+# execute if score ingame= 26scores matches 2 as @s[scores={26hitCooldown=1..}] run function games:26/cooldown_title

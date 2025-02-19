@@ -61,3 +61,6 @@ schedule clear games:4/starttitle
 schedule clear games:4/begin
 
 effect clear @a[tag=ingame] haste 
+
+xp set @a[tag=ingame] 0 points
+xp set @a[tag=ingame] 0 levels

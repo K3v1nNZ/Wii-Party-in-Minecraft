@@ -66,3 +66,8 @@ scoreboard players set show= 35scores 0
 execute as @a[tag=ingame] run attribute @s generic.step_height base set 1
 
 schedule function games:35/play_intro 54t
+
+data modify storage game35 steps.blue set value ["0"]
+data modify storage game35 steps.red set value ["0"]
+data modify storage game35 steps.green set value ["0"]
+data modify storage game35 steps.orange set value ["0"]

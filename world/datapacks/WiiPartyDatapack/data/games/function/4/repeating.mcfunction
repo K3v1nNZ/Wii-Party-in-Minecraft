@@ -8,6 +8,10 @@ execute if score ingame= 4scores matches 1..2 as @a[tag=ingame,team=orange] run 
 execute as @a[tag=ingame,scores={4shootCooldown=1},tag=!4dead,tag=!4hit] at @s run playsound block.note_block.bit master @s ~ ~ ~ 1 2
 effect give @a[tag=ingame,scores={4shootCooldown=18}] haste infinite 255 true
 effect clear @a[tag=ingame,scores={4shootCooldown=1}] haste 
+# Shoot cooldown xp
+execute as @a[tag=ingame] unless score @s 4shootCooldown matches 1.. run function games:4/xp_reset
+execute if score ingame= 4scores matches 2 as @a[tag=ingame] if score @s 4shootCooldown matches 1.. run function games:4/xp_set
+#
 scoreboard players remove @a[tag=ingame,scores={4shootCooldown=1..}] 4shootCooldown 1
 # execute if score ingame= 4scores matches 2 as @a[tag=ingame,scores={rightClick=1..}] unless score @s 4shootCooldown matches 1.. at @s run function games:4/shoot
 execute as @e[type=minecraft:block_display,tag=4shot] at @s run function games:4/move_bullet

@@ -36,3 +36,15 @@ stopsound @a[tag=playing] voice
 tag @a remove 35move
 scoreboard players set travel= 35scores 0
 schedule clear games:35/travel_end
+
+# data remove storage game35 steps.blue[-1]
+# data remove storage game35 steps.red[-1]
+# data remove storage game35 steps.green[-1]
+# data remove storage game35 steps.orange[-1]
+
+execute if entity @a[tag=ingame,team=blue] run tellraw @a[tag=playing] [{"bold":false,"selector":"@a[tag=ingame,team=blue]"},{"color":"gray","text":": "},{"color":"gray","nbt":"steps.blue","interpret":true,"storage":"game35","separator": " > "}]
+execute if entity @a[tag=ingame,team=red] run tellraw @a[tag=playing] [{"bold":false,"selector":"@a[tag=ingame,team=red]"},{"color":"gray","text":": "},{"color":"gray","nbt":"steps.red","interpret":true,"storage":"game35","separator": " > "}]
+execute if entity @a[tag=ingame,team=green] run tellraw @a[tag=playing] [{"bold":false,"selector":"@a[tag=ingame,team=green]"},{"color":"gray","text":": "},{"color":"gray","nbt":"steps.green","interpret":true,"storage":"game35","separator": " > "}]
+execute if entity @a[tag=ingame,team=orange] run tellraw @a[tag=playing] [{"bold":false,"selector":"@a[tag=ingame,team=orange]"},{"color":"gray","text":": "},{"color":"gray","nbt":"steps.orange","interpret":true,"storage":"game35","separator": " > "}]
+
+# Step progress tellraw
