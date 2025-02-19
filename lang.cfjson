@@ -498,7 +498,7 @@
     @instruction=LimitForcedJevin|126|Bold
     "scoreboard.FaceFlip":"@SI;%1$s#scoreboard.FaceFlip.Symbol@ @SI;%2$s#scoreboard.FaceFlip.Symbol@ @SI;%3$s#scoreboard.FaceFlip.Symbol@",
     "scoreboard.WalkOff":"@SI;%1$s#scoreboard.WalkOff.Symbol@",
-    "scoreboard.StrategySteps":" @SI;%1$s#scoreboard.StrategySteps.Symbols.6@@SI;%2$s#scoreboard.StrategySteps.Symbols.6@ ",
+    "scoreboard.StrategySteps":"@SI;%1$s#scoreboard.StrategySteps.Symbols.6@@SI;%2$s#scoreboard.StrategySteps.Symbols.6@",
     @clear
 
 

@@ -10,8 +10,8 @@ execute if score ingame= 16scores matches 2 as @a[tag=ingame,tag=!16dead,tag=!16
 # Charge logic
 scoreboard players remove @a[tag=ingame,scores={16cooldown=1..}] 16cooldown 1
 scoreboard players add @a[tag=16charging,tag=!16dead] 16charge 1
-execute if score ingame= 16scores matches 2 as @a[tag=!16charged,tag=!16dead] run function games:16/interaction_small
-execute if score ingame= 16scores matches 2 as @a[scores={16charge=16}] run function games:16/interaction_big
+execute if score ingame= 16scores matches 2 as @a[tag=ingame, tag=!16charged,tag=!16dead] run function games:16/interaction_small
+execute if score ingame= 16scores matches 2 as @a[tag=ingame, scores={16charge=16}] run function games:16/interaction_big
 execute as @a[scores={16charge=17},tag=!16charged] at @s run function games:16/charged
 # execute as @a[scores={16charge=20..}] at @s run function games:16/punch
 scoreboard players reset @a[tag=!16charging] 16charge

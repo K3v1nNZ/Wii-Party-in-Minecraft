@@ -127,6 +127,9 @@ execute positioned -585 13.2 566 if score carts= lobby matches 2.. run function 
 execute unless score playing= lobby matches 1.. run scoreboard players add @a[scores={lobby_song=0..}] lobby_song 1
 execute unless score playing= lobby matches 1.. as @a[scores={lobby_song=3400..}] at @s run function lobby:play_menu
 
+# Clear people stealin books
+execute unless score playing= lobby matches 1.. run clear @a enchanted_book
+
 
 # Particles
 # Portal

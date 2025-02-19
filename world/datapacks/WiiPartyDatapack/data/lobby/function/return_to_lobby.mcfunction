@@ -36,3 +36,5 @@ function lobby:display
 scoreboard objectives setdisplay sidebar lobbyDisplay
 
 schedule function graphing:set_key 10t
+
+execute as @a run attribute @s player.entity_interaction_range base set 3.0

@@ -1,4 +1,4 @@
-$data modify storage game35 steps.$(color) append value " §l>§r "
+$data modify storage game35 steps.$(color) append value " §l§8>§r "
 
 $execute if score @s 35step matches 0 run data modify storage game35 steps.$(color) append value "0"
 $execute if score @s 35step matches 1 run data modify storage game35 steps.$(color) append value "1"

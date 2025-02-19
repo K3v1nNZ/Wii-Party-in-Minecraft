@@ -8,3 +8,5 @@ tag @a remove 35move
 scoreboard players set @a 35num 0
 
 clear @a[tag=ingame]
+
+title @a[tag=playing] times 10 10 20

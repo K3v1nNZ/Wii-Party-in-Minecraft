@@ -18,3 +18,5 @@ execute as @a[tag=ingame,team=orange,tag=35move] run function games:35/add_stora
 schedule function games:35/travel_end 8s
 
 function games:35/display
+
+title @a[tag=playing] times 10 60 20

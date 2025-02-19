@@ -53,7 +53,7 @@ function games:16/display
 # Disable movement
 execute as @a[tag=ingame] run attribute @s minecraft:generic.movement_speed base set 0
 execute as @a[tag=ingame] run attribute @s minecraft:generic.jump_strength base set 0
-execute as @a[tag=ingame] run attribute @s player.entity_interaction_range base set 0.75
+execute as @a[tag=ingame] run attribute @s player.entity_interaction_range base set 0
 
 # Create scoreboards
 scoreboard objectives add 16arrow dummy

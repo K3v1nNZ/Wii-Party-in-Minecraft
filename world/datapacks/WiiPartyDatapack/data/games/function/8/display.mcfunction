@@ -29,7 +29,7 @@ execute as @a[tag=ingame,team=orange] run scoreboard players set §0§0 8display
 
 # Displays specific symbols that represent the number of times the player has taken damage by checking their 1damage score
     # Blue team
-execute as @a[tag=ingame,team=blue] if score @s 8hits matches 0 run team modify displayline11 prefix {"translate":"scoreboard.ChopChops.1","with":[{"text":"0z","color":"#0088ff"}]}
+execute as @a[tag=ingame,team=blue] if score @s 8hits matches 0 run team modify displayline11 prefix {"translate":"scoreboard.ChopChops.1","with":[{"text":"0%","color":"#0088ff"}]}
 execute as @a[tag=ingame,team=blue] if score @s 8hits matches 1 run team modify displayline11 prefix {"translate":"scoreboard.ChopChops.1","with":[{"text":"2%","color":"#0088ff"}]}
 execute as @a[tag=ingame,team=blue] if score @s 8hits matches 2 run team modify displayline11 prefix {"translate":"scoreboard.ChopChops.1","with":[{"text":"4%","color":"#0088ff"}]}
 execute as @a[tag=ingame,team=blue] if score @s 8hits matches 3 run team modify displayline11 prefix {"translate":"scoreboard.ChopChops.1","with":[{"text":"6%","color":"#0088ff"}]}
