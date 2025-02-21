@@ -421,7 +421,7 @@
 "game.DerbyDash.How.3": "%s Your stamina generates quicker the longer it generates",
 "game.DerbyDash.How.4": "%s First horse to reach the end wins!",
 "game.DerbyDash.Whip": "Whip",
-"game.DerbyDash.Finish": "%1$s finished in %2$s:%2$s!",
+"game.DerbyDash.Finish": "%1$s finished in %2$s:%3$s!",
 "game.DerbyDash.Stamina": "Stamina:",
 "game.ChopChopsName": "Chop Chops",
 "game.ChopChops.How.1": "%s Left click your carrot to chop as quickly as you can",
