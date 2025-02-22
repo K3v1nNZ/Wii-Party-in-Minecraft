@@ -597,7 +597,7 @@
     "game.DerbyDash.How.1|2|3|4": "@EI;%s#Bullet Point (-)@ Click to whip your horse, giving it a speed boost|@EI;%s#Bullet Point (-)@ If you run out of stamina your speed will be reduced|@EI;%s#Bullet Point (-)@ Your stamina generates quicker the longer it generates|@EI;%s#Bullet Point (-)@ First horse to reach the end wins!",
     "game.DerbyDash.Whip": "Whip",
     % Time Result
-    "game.DerbyDash.Finish": "@EI;%1$s#Player Name@ finished in @EI;%2$s#Seconds@:@EI;%2$s#Miliseconds@!",
+    "game.DerbyDash.Finish": "@EI;%1$s#Player Name@ finished in @EI;%2$s#Seconds@:@EI;%3$s#Miliseconds@!",
     "game.DerbyDash.Stamina": "Stamina:",
 
     # Chop Chops
