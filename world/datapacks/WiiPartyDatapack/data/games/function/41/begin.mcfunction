@@ -21,3 +21,7 @@ title @a[tag=playing] times 0 60 20
 function games:41/play_song
 
 scoreboard players set timer= 41scores 0
+
+execute as @a[tag=ingame] run attribute @s generic.jump_strength base set 1
+
+scoreboard players set @a[tag=ingame] 41jump 0

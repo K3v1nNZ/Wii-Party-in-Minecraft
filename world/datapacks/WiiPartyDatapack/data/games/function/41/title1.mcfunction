@@ -17,3 +17,11 @@ execute as @a[tag=playing] at @s run playsound minecraft:block.note_block.banjo 
 
 # Schedules the start of the game in 2 seconds
 schedule function games:41/title2 2s
+
+scoreboard players set $x player_motion.api.launch 0
+scoreboard players set $y player_motion.api.launch 6000
+scoreboard players set $z player_motion.api.launch 0
+
+execute as @a[tag=ingame] run function player_motion:api/launch_xyz
+
+schedule function games:41/spawn_stand 8t

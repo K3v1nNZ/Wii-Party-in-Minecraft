@@ -47,6 +47,13 @@ function general:reset_tags
 # Create scoreboards
 scoreboard objectives add 41score dummy
 scoreboard players set @a[tag=ingame] 41score 0
+scoreboard players set maxTime= 41scores 600
+scoreboard players set timer= 41scores 0
+scoreboard objectives add 41delay dummy
+scoreboard objectives add 41jump minecraft.custom:minecraft.jump
+scoreboard objectives add 41sneak minecraft.custom:minecraft.sneak_time
+scoreboard objectives add 41sneakTime dummy
+
 
 # Updates the scoreboard
 scoreboard objectives add 41display dummy {"translate":"game.ChinUpChampsName","bold":true}
@@ -61,33 +68,35 @@ function games:41/display
 schedule function games:41/play_intro 16t
 
 # Bossbar
-bossbar add 19bluetimer {"translate":"game.WalkOff.Time","color":"#0088ff","bold":true}
-bossbar add 19spectimer {"translate":"game.WalkOff.Time","color":"light_purple","bold":true}
-bossbar add 19redtimer {"translate":"game.WalkOff.Time","color":"red","bold":true}
-bossbar add 19greentimer {"translate":"game.WalkOff.Time","color":"green","bold":true}
-bossbar add 19orangetimer {"translate":"game.WalkOff.Time","color":"gold","bold":true}
-bossbar set 19bluetimer color blue
-bossbar set 19spectimer color pink
-bossbar set 19redtimer color red
-bossbar set 19greentimer color green
-bossbar set 19orangetimer color yellow
-bossbar set 19bluetimer max 600
-bossbar set 19spectimer max 600
-bossbar set 19redtimer max 600
-bossbar set 19greentimer max 600
-bossbar set 19orangetimer max 600
-bossbar set 19bluetimer value 600
-bossbar set 19spectimer value 600
-bossbar set 19redtimer value 600
-bossbar set 19greentimer value 600
-bossbar set 19orangetimer value 600
-bossbar set 19bluetimer players @a[team=blue]
-bossbar set 19bluetimer visible true
-bossbar set 19spectimer players @a[tag=playing,tag=!ingame]
-bossbar set 19spectimer visible true
-bossbar set 19redtimer players @a[team=red]
-bossbar set 19redtimer visible true
-bossbar set 19greentimer players @a[team=green]
-bossbar set 19greentimer visible true
-bossbar set 19orangetimer players @a[team=orange]
-bossbar set 19orangetimer visible true
+bossbar add 41bluetimer {"translate":"game.WalkOff.Time","color":"#0088ff","bold":true}
+bossbar add 41spectimer {"translate":"game.WalkOff.Time","color":"light_purple","bold":true}
+bossbar add 41redtimer {"translate":"game.WalkOff.Time","color":"red","bold":true}
+bossbar add 41greentimer {"translate":"game.WalkOff.Time","color":"green","bold":true}
+bossbar add 41orangetimer {"translate":"game.WalkOff.Time","color":"gold","bold":true}
+bossbar set 41bluetimer color blue
+bossbar set 41spectimer color pink
+bossbar set 41redtimer color red
+bossbar set 41greentimer color green
+bossbar set 41orangetimer color yellow
+bossbar set 41bluetimer max 600
+bossbar set 41spectimer max 600
+bossbar set 41redtimer max 600
+bossbar set 41greentimer max 600
+bossbar set 41orangetimer max 600
+bossbar set 41bluetimer value 600
+bossbar set 41spectimer value 600
+bossbar set 41redtimer value 600
+bossbar set 41greentimer value 600
+bossbar set 41orangetimer value 600
+bossbar set 41bluetimer players @a[team=blue]
+bossbar set 41bluetimer visible true
+bossbar set 41spectimer players @a[tag=playing,tag=!ingame]
+bossbar set 41spectimer visible true
+bossbar set 41redtimer players @a[team=red]
+bossbar set 41redtimer visible true
+bossbar set 41greentimer players @a[team=green]
+bossbar set 41greentimer visible true
+bossbar set 41orangetimer players @a[team=orange]
+bossbar set 41orangetimer visible true
+
+function games:41/spawn_timer

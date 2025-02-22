@@ -35,3 +35,5 @@ function general:placements
 schedule clear games:41/play_song
 stopsound @a[tag=playing] voice
 
+execute as @a run attribute @s generic.gravity base set 0.08
+execute as @a run attribute @s minecraft:generic.jump_strength base set 0.41999998688697815

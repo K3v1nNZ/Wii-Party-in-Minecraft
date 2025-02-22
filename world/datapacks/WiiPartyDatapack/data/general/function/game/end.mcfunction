@@ -23,6 +23,8 @@ function games:16/end
 function games:35/end
 function games:19/end
 function games:29/end
+function games:41/end
+function games:15/end
 
 schedule clear games:1/start
 schedule clear games:2/start
@@ -48,6 +50,8 @@ schedule clear games:16/start
 schedule clear games:35/start
 schedule clear games:19/start
 schedule clear games:29/start
+schedule clear games:41/start
+schedule clear games:15/start
 
 function board:draw/end
 function board:dice_roll/end
@@ -118,6 +122,10 @@ bossbar set minecraft:29bluetimer visible false
 bossbar set minecraft:29redtimer visible false
 bossbar set minecraft:29greentimer visible false
 bossbar set minecraft:29orangetimer visible false
+bossbar set minecraft:41bluetimer visible false
+bossbar set minecraft:41redtimer visible false
+bossbar set minecraft:41greentimer visible false
+bossbar set minecraft:41orangetimer visible false
 
 scoreboard players set testing options 0
 
@@ -165,6 +173,8 @@ schedule clear games:38/play_song
 schedule clear board:tiles/final/play_song
 schedule clear games:19/play_song
 schedule clear games:29/play_song
+schedule clear games:41/play_song
+schedule clear games:15/play_song
 
 # Clear intros
 schedule clear games:1/play_intro
@@ -188,6 +198,8 @@ schedule clear games:38/play_intro
 schedule clear games:48/play_intro
 schedule clear games:19/play_intro
 schedule clear games:29/play_intro
+schedule clear games:41/play_intro
+schedule clear games:15/play_intro
 
 execute as @a run attribute @s player.entity_interaction_range base set 3
 tag @a remove lobbyParkour

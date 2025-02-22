@@ -17,3 +17,6 @@ execute as @a[tag=playing] at @s run playsound minecraft:block.note_block.banjo 
 
 # Schedules the start of the game in 2 seconds
 schedule function games:41/begin 2s
+
+# Failsafe if not thrown up
+execute as @a[tag=ingame] at @s unless entity @e[type=item_display,tag=41stand,dy=-10] at @n[type=item_display,tag=41stand] run tp @s ~ ~1 ~
