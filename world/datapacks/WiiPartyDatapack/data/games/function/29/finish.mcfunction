@@ -35,3 +35,5 @@ function general:placements
 schedule clear games:29/play_song
 stopsound @a[tag=playing] voice
 
+
+execute as @e[type=drowned,tag=29jellyfish] run data merge entity @s {NoAI:1b}

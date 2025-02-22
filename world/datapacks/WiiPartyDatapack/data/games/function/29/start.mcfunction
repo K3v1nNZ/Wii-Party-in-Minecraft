@@ -23,7 +23,9 @@ tellraw @a[tag=playing] [{"translate":"game.PearlPlunder.How.2","color":"gray","
 tellraw @a[tag=playing] ""
 
 # Teleport all players to the minigame
-tp @a[tag=playing] 20000 20 20000
+tp @a 28000 10 28000
+spreadplayers 28000 28000 0 5 true @a[tag=playing]
+execute as @a[tag=playing] at @s run tp @s ~ 12 ~
 
 
 
@@ -32,6 +34,8 @@ execute as @a[tag=playing] at @s run playsound minecraft:entity.experience_orb.p
 
 # Give all players the weakness effect to make sure they can't punch other players to throw them off, this effect is cleared when it is their turn to shoot however
 effect give @a[tag=ingame] minecraft:weakness infinite 255 true
+effect give @a[tag=ingame] minecraft:night_vision infinite 255 true
+effect give @a[tag=ingame] minecraft:dolphins_grace infinite 255 true
 
 # Schedules the next segment, which will display a title
 schedule function games:29/start_title 5s
@@ -45,8 +49,13 @@ scoreboard objectives add 29score dummy
 scoreboard players set @a 29score 0
 scoreboard players set maxTime= 29scores 600
 scoreboard players set timer= 29scores 0
-scoreboard objectives add 29popup dummy
 scoreboard players set @a[tag=ingame] 29score 0
+scoreboard players set init= 29scores 0
+scoreboard objectives add 29wait dummy
+scoreboard objectives add 29timer dummy
+scoreboard objectives add 29retarget dummy
+scoreboard objectives add 29stunned dummy
+scoreboard objectives add 29recover dummy
 
 # Updates the scoreboard
 scoreboard objectives add 29display dummy {"translate":"game.PearlPlunderName","bold":true}

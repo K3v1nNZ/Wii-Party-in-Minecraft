@@ -457,6 +457,8 @@
     "scoreboard.FeatheredFrenzy.Symbol.2":"00",
     "scoreboard.PearlPlunder.Symbol.1":"0",
     "scoreboard.PearlPlunder.Symbol.2":"00",
+    "scoreboard.ChinUpChamps.Symbol.1":"0",
+    "scoreboard.ChinUpChamps.Symbol.2":"00",
     @instruction=LimitForcedJevin|126|Bold
     "scoreboard.Board.1":"@SI;%s#scoreboard.Board.Symbol.1@",
     "scoreboard.Board.2":"@SI;%s#scoreboard.Board.Symbol.2@",
@@ -510,6 +512,8 @@
     "scoreboard.FeatheredFrenzy.2":"@SI;%s#scoreboard.FeatheredFrenzy.Symbol.2@",
     "scoreboard.PearlPlunder.1":"@SI;%s#scoreboard.PearlPlunder.Symbol.1@",
     "scoreboard.PearlPlunder.2":"@SI;%s#scoreboard.PearlPlunder.Symbol.2@",
+    "scoreboard.ChinUpChamps.1":"@SI;%s#scoreboard.ChinUpChamps.Symbol.1@",
+    "scoreboard.ChinUpChamps.2":"@SI;%s#scoreboard.ChinUpChamps.Symbol.2@",
 
 
 
@@ -732,6 +736,11 @@
     "game.PearlPlunderName": "Pearl Plunder",
     % How To Play
     "game.PearlPlunder.How.1|2": "@EI;%s#Bullet Point (-)@ Swim around to collect pearls|@EI;%s#Bullet Point (-)@ The player with the most points wins!",
+
+    # Jumbo Jump
+    "game.ChinUpChampsName": "Chin Up Champs",
+    % How To Play
+    "game.ChinUpChamps.How.1|2": "@EI;%s#Bullet Point (-)@ Spam CROUCH to pull up and down|@EI;%s#Bullet Point (-)@ The player with the most pull ups wins!",
 
 
 

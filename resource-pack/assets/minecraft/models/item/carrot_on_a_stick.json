@@ -152,6 +152,10 @@
 		{"predicate": {"custom_model_data": 28003},"model": "ouo:item/stopwatch/green"},
 		{"predicate": {"custom_model_data": 28004},"model": "ouo:item/stopwatch/orange"},
 
+		{"predicate": {"custom_model_data": 29001},"model": "ouo:o/pearl_plunder/clam_closed"},
+		{"predicate": {"custom_model_data": 29002},"model": "ouo:o/pearl_plunder/clam_open"},
+
+
 		{"predicate": {"custom_model_data": 35000},"model": "ouo:o/strategy_steps/pad"},
 		{"predicate": {"custom_model_data": 35001},"model": "ouo:o/strategy_steps/1"},
 		{"predicate": {"custom_model_data": 35002},"model": "ouo:o/strategy_steps/3"},

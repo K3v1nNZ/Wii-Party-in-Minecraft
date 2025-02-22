@@ -21,3 +21,7 @@ title @a[tag=playing] times 0 60 20
 function games:29/play_song
 
 scoreboard players set timer= 29scores 0
+
+execute as @e[type=item_display,tag=29clam] at @s run function games:29/clam_wait
+
+function games:29/spawn_jellyfish

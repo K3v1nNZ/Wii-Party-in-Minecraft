@@ -1,0 +1,23 @@
+tag @e[type=item_display,tag=29clam,tag=29open,dx=0,dy=1,dz=0] add 29target
+
+tag @e[type=item_display,tag=29target] remove 29open
+
+data modify entity @n[type=item_display,tag=29target] item.components."minecraft:custom_model_data" set value 29001
+
+execute as @e[type=item_display,tag=29target] run function games:29/clam_wait
+
+scoreboard players add @s 29score 1
+
+particle minecraft:wax_off ~ ~1 ~ 0.5 1 0.5 1 10
+playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1 1
+
+title @s times 3 10 10
+title @s title ""
+title @s[team=blue] subtitle {"bold":true,"color":"#0088ff","text":"+1"}
+title @s[team=red] subtitle {"bold":true,"color":"red","text":"+1"}
+title @s[team=green] subtitle {"bold":true,"color":"green","text":"+1"}
+title @s[team=orange] subtitle {"bold":true,"color":"gold","text":"+1"}
+
+tag @e remove 29target
+
+function games:29/display

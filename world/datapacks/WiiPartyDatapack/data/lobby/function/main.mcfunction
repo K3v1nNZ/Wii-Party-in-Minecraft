@@ -138,3 +138,8 @@ particle portal -548 11 581 1.5 1 1.5 0.5 2 normal
 particle smoke -543 20 557 2 1 2 0.025 3 normal
 # Phil
 particle mycelium -559 12 523 3 1 3 0 2 normal
+
+
+# test
+execute as @a at @s if predicate games:in_minecart store result storage test test double 1 run data get entity @s Motion[1] 10000000
+execute as @a at @s if predicate games:in_minecart run tellraw @s {"nbt":"test","storage": "test"}

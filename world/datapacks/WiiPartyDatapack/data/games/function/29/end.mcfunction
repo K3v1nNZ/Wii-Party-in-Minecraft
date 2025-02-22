@@ -9,9 +9,16 @@ execute if score playing= lobby matches 1 if score testing options matches 0 run
 execute if score playing= lobby matches 2 run schedule function lobby:return_to_lobby 1t
 
 # Resets scores
+scoreboard players reset @a 29stunned
+scoreboard players reset @a 29recover
 
+tag @a remove 29stunned
+tag @a remove 29recover
 
 # Kills all entities
+kill @e[type=item_display,tag=29clam]
+kill @e[type=drowned,tag=29jellyfish]
+kill @e[type=marker,tag=29stun]
 
 # Puts all players who have died back into adventure
 gamemode adventure @a[tag=ingame]
@@ -36,3 +43,7 @@ bossbar set minecraft:29redtimer players
 bossbar set minecraft:29greentimer players
 bossbar set minecraft:29orangetimer players
 bossbar set minecraft:29spectimer players
+
+effect clear @a[tag=playing] night_vision
+effect clear @a[tag=playing] dolphins_grace
+effect clear @a[tag=playing] resistance
