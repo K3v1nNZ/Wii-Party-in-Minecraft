@@ -30,7 +30,7 @@ float offsets[9] = float[9](
 );
 
 void main() {
-    bool markerShadow = ivec2(Color.gb * 255. + 0.5) == ivec2(1, 62);
+    bool markerShadow = (ivec2(Color.gb * 255. + 0.5) == ivec2(1, 62)) || (ivec2(Color.gb * 255. + 0.5) == ivec2(1, 61));
 
     if (markerShadow) {
         gl_Position = vec4(3.0, 3.0, 3.0, 1.0);
@@ -65,11 +65,16 @@ void main() {
 
     bool darken = ivec2(Color.gb * 255. + 0.5) == ivec2(4, 248);
 
+    bool ouo = ivec2(Color.gb * 255. + 0.5) == ivec2(4, 244);
+
+
     if (marker)
         vertexColor.a *= Color.a;
     else
         vertexColor *= Color;
     if(darken)
         vertexColor.rgb = vec3(0.5,0.5,0.5);
+    if(ouo)
+        vertexColor.rgb = vec3(1,0.2,0.8);
     texCoord0 = UV0;
 }
