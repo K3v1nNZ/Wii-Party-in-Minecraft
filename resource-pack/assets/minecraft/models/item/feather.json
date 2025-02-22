@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/feather"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data": 1},"model": "ouo:item/feathers/default"},
+		{"predicate": {"custom_model_data": 2},"model": "ouo:item/feathers/golden"},
+		{"predicate": {"custom_model_data": 3},"model": "ouo:item/feathers/bad"}
+
+	]
+}

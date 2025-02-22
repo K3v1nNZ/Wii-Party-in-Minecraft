@@ -171,6 +171,14 @@
 
 
 		{"predicate": {"custom_model_data": 36001},"model": "ouo:o/face_flip/blue"},
+
+
+		
+		{"predicate": {"custom_model_data": 36002},"model": "ouo:o/face_flip/blue_player"},
+
+
+
+
 		{"predicate": {"custom_model_data": 36002},"model": "ouo:o/face_flip/red"},
 		{"predicate": {"custom_model_data": 36003},"model": "ouo:o/face_flip/green"},
 		{"predicate": {"custom_model_data": 36004},"model": "ouo:o/face_flip/orange"},
