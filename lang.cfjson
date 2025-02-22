@@ -455,6 +455,8 @@
     "scoreboard.StrategySteps.Symbols.12":"||||||||||||",
     "scoreboard.FeatheredFrenzy.Symbol.1":"0",
     "scoreboard.FeatheredFrenzy.Symbol.2":"00",
+    "scoreboard.PearlPlunder.Symbol.1":"0",
+    "scoreboard.PearlPlunder.Symbol.2":"00",
     @instruction=LimitForcedJevin|126|Bold
     "scoreboard.Board.1":"@SI;%s#scoreboard.Board.Symbol.1@",
     "scoreboard.Board.2":"@SI;%s#scoreboard.Board.Symbol.2@",
@@ -506,6 +508,8 @@
     @instruction=LimitForcedJevin|126
     "scoreboard.FeatheredFrenzy.1":"@SI;%s#scoreboard.FeatheredFrenzy.Symbol.1@",
     "scoreboard.FeatheredFrenzy.2":"@SI;%s#scoreboard.FeatheredFrenzy.Symbol.2@",
+    "scoreboard.PearlPlunder.1":"@SI;%s#scoreboard.PearlPlunder.Symbol.1@",
+    "scoreboard.PearlPlunder.2":"@SI;%s#scoreboard.PearlPlunder.Symbol.2@",
 
 
 
@@ -723,6 +727,12 @@
     "game.FeatheredFrenzyName": "Feathered Frenzy",
     % How To Play
     "game.FeatheredFrenzy.How.1|2": "@EI;%s#Bullet Point (-)@ Run around collecting feathers|@EI;%s#Bullet Point (-)@ The player with the most feathers wins!",
+
+    # Pearl Plunder
+    "game.PearlPlunderName": "Pearl Plunder",
+    % How To Play
+    "game.PearlPlunder.How.1|2": "@EI;%s#Bullet Point (-)@ Swim around to collect pearls|@EI;%s#Bullet Point (-)@ The player with the most points wins!",
+
 
 
     # Strategy Steps

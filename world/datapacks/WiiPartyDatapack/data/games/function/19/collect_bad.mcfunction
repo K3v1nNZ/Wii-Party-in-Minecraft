@@ -1,6 +1,6 @@
 particle smoke ~ ~1 ~ 0.5 1 0.5 0.05 10
-scoreboard players remove @s 19score 1
-playsound entity.generic.explode master @s ~ ~ ~ 1 1.5 1
+scoreboard players remove @s[scores={19score=1..}] 19score 1
+playsound entity.villager.hurt master @s ~ ~ ~ 1 1.25 1
 
 title @s title ""
 title @s subtitle {"text":"-1","bold":true,"color":"#6f5126"}

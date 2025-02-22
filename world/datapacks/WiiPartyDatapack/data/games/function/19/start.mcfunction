@@ -39,11 +39,6 @@ schedule function games:19/start_title 5s
 # Removes all players position tags, just for debugging purposes
 function general:reset_tags
 
-# Updates the scoreboard
-scoreboard objectives add 16display dummy {"translate":"game.FeatheredFrenzyName","bold":true}
-scoreboard objectives setdisplay sidebar 16display
-function games:16/display
-
 
 # Create scoreboards
 scoreboard objectives add 19score dummy
@@ -51,12 +46,19 @@ scoreboard players set @a 19score 0
 scoreboard players set maxTime= 19scores 600
 scoreboard players set timer= 19scores 0
 scoreboard objectives add 19popup dummy
+scoreboard players set @a[tag=ingame] 19score 0
+
+# Updates the scoreboard
+scoreboard objectives add 19display dummy {"translate":"game.FeatheredFrenzyName","bold":true}
+scoreboard objectives modify 19display numberformat blank
+scoreboard objectives setdisplay sidebar 19display
+function games:19/display
 
 
 # Removes all tags
 
 
-schedule function games:16/play_intro 16t
+schedule function games:19/play_intro 16t
 
 # Bossbar
 bossbar add 19bluetimer {"translate":"game.WalkOff.Time","color":"#0088ff","bold":true}

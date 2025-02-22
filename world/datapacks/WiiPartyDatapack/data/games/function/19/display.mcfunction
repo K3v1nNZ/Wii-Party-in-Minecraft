@@ -2,29 +2,29 @@
 #   Description   =   Handles the sidebar scoreboard
 
 # Resets the scoreboard and all the scores
-scoreboard players reset * 19score
+scoreboard players reset * 19display
 
 # If there is an entity on the team, it will add the teams name to the scoreboard
 team join t.Blue §l
-execute as @a[tag=ingame,team=blue] run scoreboard players set §l 19score 12
+execute as @a[tag=ingame,team=blue] run scoreboard players set §l 19display 12
 team join t.Red §l§l
-execute as @a[tag=ingame,team=red] run scoreboard players set §l§l 19score 9
+execute as @a[tag=ingame,team=red] run scoreboard players set §l§l 19display 9
 team join t.Green §l§l§l
-execute as @a[tag=ingame,team=green] run scoreboard players set §l§l§l 19score 6
+execute as @a[tag=ingame,team=green] run scoreboard players set §l§l§l 19display 6
 team join t.Orange §l§l§l§l
-execute as @a[tag=ingame,team=orange] run scoreboard players set §l§l§l§l 19score 3
+execute as @a[tag=ingame,team=orange] run scoreboard players set §l§l§l§l 19display 3
 
 # Adds the blank lines in the scoreboard depending on if teams are present
-scoreboard players set §r 19score 13
-execute as @a[tag=ingame,team=blue] run scoreboard players set §r§r 19score 10
-execute as @a[tag=ingame,team=red] run scoreboard players set §r§r§r 19score 7
-execute as @a[tag=ingame,team=green] run scoreboard players set §r§r§r§r 19score 4
-execute as @a[tag=ingame,team=orange] run scoreboard players set §r§r§r§r§r 19score 1
+scoreboard players set §r 19display 13
+execute as @a[tag=ingame,team=blue] run scoreboard players set §r§r 19display 10
+execute as @a[tag=ingame,team=red] run scoreboard players set §r§r§r 19display 7
+execute as @a[tag=ingame,team=green] run scoreboard players set §r§r§r§r 19display 4
+execute as @a[tag=ingame,team=orange] run scoreboard players set §r§r§r§r§r 19display 1
 
-execute as @a[tag=ingame,team=blue] run scoreboard players set §0§0§0§0§0§0§0§0§0§0§0 19score 11
-execute as @a[tag=ingame,team=red] run scoreboard players set §0§0§0§0§0§0§0§0 19score 8
-execute as @a[tag=ingame,team=green] run scoreboard players set §0§0§0§0§0 19score 5
-execute as @a[tag=ingame,team=orange] run scoreboard players set §0§0 19score 2
+execute as @a[tag=ingame,team=blue] run scoreboard players set §0§0§0§0§0§0§0§0§0§0§0 19display 11
+execute as @a[tag=ingame,team=red] run scoreboard players set §0§0§0§0§0§0§0§0 19display 8
+execute as @a[tag=ingame,team=green] run scoreboard players set §0§0§0§0§0 19display 5
+execute as @a[tag=ingame,team=orange] run scoreboard players set §0§0 19display 2
 
 # Shows the number of points the player has
 execute as @a[tag=ingame,scores={19score=-1},team=blue] run team modify displayline11 prefix {"translate":"scoreboard.FeatheredFrenzy.1","color":"#0088ff","with":[{"text":"0","color":"#0088ff","bold":true,"underlined":true}]}

@@ -23,8 +23,11 @@ execute if score ingame= 19scores matches 2 if score timer= 19scores >= maxTime=
 execute as @e[type=text_display,tag=19popup] at @s run function games:19/popup_anim
 
 # Bossbar
-execute if score ingame= 19scores matches 2 store result bossbar minecraft:19bluetimer value run scoreboard players get timer= 19scores
-execute if score ingame= 19scores matches 2 store result bossbar minecraft:19redtimer value run scoreboard players get timer= 19scores
-execute if score ingame= 19scores matches 2 store result bossbar minecraft:19greentimer value run scoreboard players get timer= 19scores
-execute if score ingame= 19scores matches 2 store result bossbar minecraft:19orangetimer value run scoreboard players get timer= 19scores
-execute if score ingame= 19scores matches 2 store result bossbar minecraft:19spectimer value run scoreboard players get timer= 19scores
+scoreboard players operation bossbar= 19scores = maxTime= 19scores
+scoreboard players operation bossbar= 19scores -= timer= 19scores
+
+execute if score ingame= 19scores matches 2 store result bossbar minecraft:19bluetimer value run scoreboard players get bossbar= 19scores
+execute if score ingame= 19scores matches 2 store result bossbar minecraft:19redtimer value run scoreboard players get bossbar= 19scores
+execute if score ingame= 19scores matches 2 store result bossbar minecraft:19greentimer value run scoreboard players get bossbar= 19scores
+execute if score ingame= 19scores matches 2 store result bossbar minecraft:19orangetimer value run scoreboard players get bossbar= 19scores
+execute if score ingame= 19scores matches 2 store result bossbar minecraft:19spectimer value run scoreboard players get bossbar= 19scores
