@@ -50,9 +50,13 @@ scoreboard objectives add 15score dummy
 scoreboard objectives add 15id dummy
 scoreboard players set val= 15id 0 
 scoreboard players set init= 15scores 0
+scoreboard objectives add 15timer dummy
+scoreboard players set @a[tag=ingame] 15timer 0
 
 team add 15sheep
 team modify 15sheep collisionRule pushOwnTeam
+team add 15sheepLeader
+team modify 15sheepLeader collisionRule pushOtherTeams
 
 
 # Updates the scoreboard

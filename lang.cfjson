@@ -459,6 +459,7 @@
     "scoreboard.PearlPlunder.Symbol.2":"00",
     "scoreboard.ChinUpChamps.Symbol.1":"0",
     "scoreboard.ChinUpChamps.Symbol.2":"00",
+    "scoreboard.RamJam.Symbol":"🐑",
     @instruction=LimitForcedJevin|126|Bold
     "scoreboard.Board.1":"@SI;%s#scoreboard.Board.Symbol.1@",
     "scoreboard.Board.2":"@SI;%s#scoreboard.Board.Symbol.2@",
@@ -514,6 +515,7 @@
     "scoreboard.PearlPlunder.2":"@SI;%s#scoreboard.PearlPlunder.Symbol.2@",
     "scoreboard.ChinUpChamps.1":"@SI;%s#scoreboard.ChinUpChamps.Symbol.1@",
     "scoreboard.ChinUpChamps.2":"@SI;%s#scoreboard.ChinUpChamps.Symbol.2@",
+    "scoreboard.RamJam":"@SI;%1$s#scoreboard.RamJam.Symbol@",
 
 
 
