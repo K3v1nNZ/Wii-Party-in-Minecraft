@@ -20,7 +20,6 @@ execute if score ms= 15timer matches ..9 run tellraw @s {"color":"gray","transla
 execute if score ms= 15timer matches 10.. run tellraw @s {"color":"gray","translate":"game.DerbyDash.Finish","with":[{"selector":"@s","type":"selector","bold":true},{"color":"white","score":{"name":"s=","objective": "15timer"}},{"color":"white","score":{"name":"ms=","objective": "15timer"}}],"bold":false}
 tag @s remove this
 
-execute store result score players 15cores if entity @a[tag=ingame]
 execute if entity @a[tag=1st] if entity @a[tag=2nd] if entity @a[tag=3rd] run tag @s add 4th
 execute if entity @a[tag=1st] if entity @a[tag=2nd] unless entity @a[tag=3rd] run tag @s add 3rd
 execute if entity @a[tag=1st] unless entity @a[tag=2nd] run tag @s add 2nd

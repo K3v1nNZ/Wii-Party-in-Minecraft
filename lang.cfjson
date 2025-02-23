@@ -516,6 +516,7 @@
     "scoreboard.ChinUpChamps.1":"@SI;%s#scoreboard.ChinUpChamps.Symbol.1@",
     "scoreboard.ChinUpChamps.2":"@SI;%s#scoreboard.ChinUpChamps.Symbol.2@",
     "scoreboard.RamJam":"@SI;%1$s#scoreboard.RamJam.Symbol@",
+    @clear
 
 
 
@@ -749,6 +750,10 @@
     % How To Play
     "game.RamJam.How.1|2|3": "@EI;%s#Bullet Point (-)@ Make your way to the end of the path|@EI;%s#Bullet Point (-)@ Dodge sheep on the way|@EI;%s#Bullet Point (-)@ First player to reach the end wins!",
 
+    # Smile Snap
+    "game.SmileSnapName": "Smile Snap",
+    % How To Play
+    "game.SmileSnap.How.1|2|3": "@EI;%s#Bullet Point (-)@ Make your way to the end of the path|@EI;%s#Bullet Point (-)@ Dodge sheep on the way|@EI;%s#Bullet Point (-)@ First player to reach the end wins!",
 
 
     # Strategy Steps

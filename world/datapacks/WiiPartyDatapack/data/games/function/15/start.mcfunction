@@ -20,6 +20,7 @@ tellraw @a[tag=playing] ""
 tellraw @a[tag=playing] [{"translate":"game.HowToPlay","color":"gray","bold":true}]
 tellraw @a[tag=playing] [{"translate":"game.RamJam.How.1","color":"gray","with":[{"text":"-"}]}]
 tellraw @a[tag=playing] [{"translate":"game.RamJam.How.2","color":"gray","with":[{"text":"-"}]}]
+tellraw @a[tag=playing] [{"translate":"game.RamJam.How.3","color":"gray","with":[{"text":"-"}]}]
 tellraw @a[tag=playing] ""
 
 # Teleport all players to the minigame
@@ -58,6 +59,8 @@ team modify 15sheep collisionRule pushOwnTeam
 team add 15sheepLeader
 team modify 15sheepLeader collisionRule pushOtherTeams
 
+# Removes all tags
+tag @a remove 15finished
 
 # Updates the scoreboard
 scoreboard objectives add 15display dummy {"translate":"game.RamJamName","bold":true}
@@ -66,7 +69,6 @@ scoreboard objectives setdisplay sidebar 15display
 function games:15/display
 
 
-# Removes all tags
 
 
 schedule function games:15/play_intro 16t

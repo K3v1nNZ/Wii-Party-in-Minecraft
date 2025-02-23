@@ -1,0 +1,1 @@
+data modify storage games:21 Photos.Temp append from entity @s Pose.Head

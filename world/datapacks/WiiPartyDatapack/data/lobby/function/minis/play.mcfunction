@@ -39,6 +39,7 @@ execute if score minigame= lobby matches 23 run function games:19/start
 execute if score minigame= lobby matches 24 run function games:29/start
 execute if score minigame= lobby matches 25 run function games:41/start
 execute if score minigame= lobby matches 26 run function games:15/start
+execute if score minigame= lobby matches 27 run function games:21/start
 
 scoreboard players set playing= lobby 2
 

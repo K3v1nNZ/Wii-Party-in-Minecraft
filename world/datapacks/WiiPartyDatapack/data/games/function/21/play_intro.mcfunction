@@ -1,0 +1,1 @@
+execute as @a[tag=playing] at @s run playsound music:tropical_punch_124 voice @s

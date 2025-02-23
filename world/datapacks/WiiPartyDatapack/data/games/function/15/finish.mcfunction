@@ -27,10 +27,16 @@ schedule function general:fade/main 88t
 # Sets the ingame score to 0 to signify that the game has ended
 scoreboard players set ingame= 15scores 0
 
-# Runs the function that shows where the players placed
-function general:placements
-
 schedule clear games:15/play_song
 stopsound @a[tag=playing] voice
 
 effect give @e[tag=15sheep] levitation infinite 0 true
+
+# Last place
+execute store result score players= 15scores if entity @a[tag=ingame]
+execute if score players= 15scores matches 4 run tag @a[tag=ingame,tag=!15finished] add 4th
+execute if score players= 15scores matches 3 run tag @a[tag=ingame,tag=!15finished] add 3rd
+execute if score players= 15scores matches 2 run tag @a[tag=ingame,tag=!15finished] add 2nd
+
+# Runs the function that shows where the players placed
+function general:placements
