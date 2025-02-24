@@ -757,7 +757,7 @@
     # Smile Snap
     "game.SmileSnapName": "Smile Snap",
     % How To Play
-    "game.SmileSnap.How.1|2|3": "@EI;%s#Bullet Point (-)@ Make your way to the end of the path|@EI;%s#Bullet Point (-)@ Dodge sheep on the way|@EI;%s#Bullet Point (-)@ First player to reach the end wins!",
+    "game.SmileSnap.How.1|2|3": "@EI;%s#Bullet Point (-)@ Wait for the armor stands to look forwards|@EI;%s#Bullet Point (-)@ Right click to take a photo|@EI;%s#Bullet Point (-)@ The photo with the most people looking forward wins!",
 
 
     # Strategy Steps
