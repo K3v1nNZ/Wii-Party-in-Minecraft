@@ -4,9 +4,9 @@
 		"layer0": "minecraft:item/feather"
 	},
 	"overrides": [
-		{"predicate": {"custom_model_data": 1},"model": "ouo:item/feathers/default"},
-		{"predicate": {"custom_model_data": 2},"model": "ouo:item/feathers/golden"},
-		{"predicate": {"custom_model_data": 3},"model": "ouo:item/feathers/bad"}
+		{"predicate": {"custom_model_data": 1},"model": "ouo:o/feathered_frenzy/pink"},
+		{"predicate": {"custom_model_data": 2},"model": "ouo:o/feathered_frenzy/golden"},
+		{"predicate": {"custom_model_data": 3},"model": "ouo:o/feathered_frenzy/leaf"}
 
 	]
 }

@@ -1,4 +1,4 @@
-summon item_display 20000 25 20009 {Tags:["19feather","19temp"],NoGravity:1b,billboard:"center",teleport_duration:0,item_display:"ground",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.5f,0f],scale:[1.5f,1.5f,1.5f]},item:{id:"minecraft:feather",count:1,components:{"minecraft:custom_model_data":1}},Glowing:1b}
+summon item_display 20000 25 20009 {Tags:["19feather","19temp"],NoGravity:1b,billboard:"center",teleport_duration:0,item_display:"ground",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.25f,0f],scale:[1.5f,1.5f,1.5f]},item:{id:"minecraft:feather",count:1,components:{"minecraft:custom_model_data":1}},Glowing:1b}
 
 # Feather type
 execute store result score random= 19scores run random value 1..7
@@ -19,7 +19,7 @@ team join black @e[type=item_display,tag=19temp,tag=bad]
 scoreboard players set limit= 19scores 0
 execute as @e[type=item_display,tag=19temp] at @s run function games:19/feather_spread
 
-execute as @e[type=item_display,tag=19temp] at @s run tp @s ~ 35 ~
+execute as @e[type=item_display,tag=19temp] at @s run tp @s ~ 40 ~
 
 
 execute as @e[type=item_display,tag=19temp] run data merge entity @s {teleport_duration:1}

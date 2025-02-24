@@ -24,6 +24,7 @@ tellraw @a[tag=playing] ""
 
 # Teleport all players to the minigame
 tp @a[tag=playing] 20000 20 20000
+spreadplayers 20000 20000 10 10 false @a[tag=playing]
 
 
 

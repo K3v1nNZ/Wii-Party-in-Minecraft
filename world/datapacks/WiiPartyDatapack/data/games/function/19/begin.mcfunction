@@ -21,3 +21,5 @@ title @a[tag=playing] times 0 60 20
 function games:19/play_song
 
 scoreboard players set timer= 19scores 0
+
+kill @e[type=item_display,tag=19feather]
