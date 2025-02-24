@@ -18,7 +18,7 @@ execute if score ingame= 21scores matches 2 store result bossbar minecraft:21spe
 # Posing
 execute if score ingame= 21scores matches 0..2 as @e[type=armor_stand,tag=21person] if score @s 21poseTime matches 0.. run function games:21/posing
 
-execute if score ingame= 21scores matches 0..2 run tp @a[tag=playing] 30065 12 29993 90 0
+execute if score ingame= 21scores matches -1..3 run tp @a[tag=playing] 30065 12 29993 90 0
 
 # Scroll zooming
 execute if score ingame= 21scores matches 0..2 as @a[tag=ingame] run function games:21/zoom_check
@@ -42,4 +42,4 @@ execute if score ingame= 21scores matches 2 run item replace entity @a[tag=ingam
 kill @e[type=item,nbt={Item:{"id":"minecraft:carrot_on_a_stick"}}]
 
 # Take Photo
-execute as @a[tag=ingame,tag=21taken] at @s if score @s rightClick matches 1.. run function games:21/photo_take
+execute as @a[tag=ingame,tag=!21taken] at @s if score @s rightClick matches 1.. run function games:21/photo_take

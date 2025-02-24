@@ -106,3 +106,4 @@ scoreboard players set init= 21scores 0
 effect give @a[tag=ingame] invisibility infinite 1 true
 
 data remove storage games:21 Photos
+
