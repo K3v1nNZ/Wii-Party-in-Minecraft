@@ -12,6 +12,7 @@ execute if score playing= lobby matches 2 run schedule function lobby:return_to_
 
 
 tag @a remove 21cur
+tag @a remove 21taken
 
 effect clear @a[tag=ingame] invisibility
 effect clear @a[tag=ingame] speed

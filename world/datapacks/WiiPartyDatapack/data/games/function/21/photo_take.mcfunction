@@ -42,3 +42,7 @@ playsound minecraft:block.tripwire.click_on master @s ~ ~ ~ 1 0.75
 # playsound minecraft:entity.zombie.attack_iron_door master @s ~ ~ ~ 1 2
 playsound minecraft:ui.loom.select_pattern master @s ~ ~ ~ 1 2
 playsound minecraft:ui.stonecutter.take_result master @s ~ ~ ~ 1 2
+
+tag @s add 21taken
+
+function games:21/display

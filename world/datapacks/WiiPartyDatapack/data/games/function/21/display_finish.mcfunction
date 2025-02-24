@@ -8,3 +8,5 @@ execute as @a[tag=ingame,tag=21cur,team=orange] run title @a[tag=playing] title 
 
 
 schedule function games:21/display_new 2s
+
+function games:21/display
