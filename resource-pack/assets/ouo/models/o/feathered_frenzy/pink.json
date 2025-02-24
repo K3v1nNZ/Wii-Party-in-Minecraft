@@ -1,0 +1,7 @@
+{
+	"credit": "OuO Studio Creation",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "ouo:o/feathered_frenzy/pink"
+	}
+}
