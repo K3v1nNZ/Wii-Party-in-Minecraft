@@ -25,15 +25,4 @@ execute if score cur= 21photo matches 5 store result entity @s Pose.Head[2] floa
 execute if score cur= 21photo matches 6 store result entity @s Pose.Head[2] float 1 run data get storage games:21 Photos.Temp[6][3]
 execute if score cur= 21photo matches 7 store result entity @s Pose.Head[2] float 1 run data get storage games:21 Photos.Temp[7][3]
 
-execute if entity @p[tag=21temp,team=blue] if entity @s[tag=21bluevalid] run team join blue
-execute if entity @p[tag=21temp,team=blue] if entity @s[tag=21bluevalid] run effect give @s glowing infinite 1
-execute if entity @p[tag=21temp,team=red] if entity @s[tag=21redvalid] run team join red
-execute if entity @p[tag=21temp,team=red] if entity @s[tag=21redvalid] run effect give @s glowing infinite 1
-execute if entity @p[tag=21temp,team=green] if entity @s[tag=21greenvalid] run team join green
-execute if entity @p[tag=21temp,team=green] if entity @s[tag=21greenvalid] run effect give @s glowing infinite 1
-execute if entity @p[tag=21temp,team=orange] if entity @s[tag=21orangevalid] run team join orange
-execute if entity @p[tag=21temp,team=orange] if entity @s[tag=21orangevalid] run effect give @s glowing infinite 1
-
 scoreboard players add cur= 21photo 1
-
-say a

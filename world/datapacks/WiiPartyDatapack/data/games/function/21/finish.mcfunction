@@ -27,7 +27,7 @@ function games:21/give_score
 
 # Sets scores
 # Sets the ingame score to 0 to signify that the game has ended
-scoreboard players set ingame= 21scores 0
+scoreboard players set ingame= 21scores -1
 
 # Runs the function that shows where the players placed
 function general:placements

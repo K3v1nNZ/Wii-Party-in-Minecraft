@@ -19,4 +19,4 @@ effect give @s[scores={21zoom=4}] speed infinite 0 true
 effect give @s[scores={21zoom=6}] slowness infinite 0 true
 effect give @s[scores={21zoom=7}] slowness infinite 1 true
 effect give @s[scores={21zoom=8}] slowness infinite 2 true
-effect give @s[scores={21zoom=9}] slowness infinite 3 true
+effect give @s[scores={21zoom=9}] slowness infinite 4 true

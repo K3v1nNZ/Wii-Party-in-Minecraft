@@ -55,6 +55,7 @@ execute as @a unless score @s 21zoom matches 1.. run scoreboard players set @a 2
 scoreboard objectives add 21cur_slot dummy
 scoreboard objectives add 21last_slot dummy
 scoreboard objectives add 21photo dummy
+scoreboard objectives add 21photoDelay dummy
 
 # Updates the scoreboard
 scoreboard objectives add 21display dummy {"translate":"game.SmileSnapName","bold":true}
@@ -79,16 +80,16 @@ bossbar set 21spectimer color pink
 bossbar set 21redtimer color red
 bossbar set 21greentimer color green
 bossbar set 21orangetimer color yellow
-bossbar set 21bluetimer max 600
-bossbar set 21spectimer max 600
-bossbar set 21redtimer max 600
-bossbar set 21greentimer max 600
-bossbar set 21orangetimer max 600
-bossbar set 21bluetimer value 600
-bossbar set 21spectimer value 600
-bossbar set 21redtimer value 600
-bossbar set 21greentimer value 600
-bossbar set 21orangetimer value 600
+bossbar set 21bluetimer max 200
+bossbar set 21spectimer max 200
+bossbar set 21redtimer max 200
+bossbar set 21greentimer max 200
+bossbar set 21orangetimer max 200
+bossbar set 21bluetimer value 200
+bossbar set 21spectimer value 200
+bossbar set 21redtimer value 200
+bossbar set 21greentimer value 200
+bossbar set 21orangetimer value 200
 bossbar set 21bluetimer players @a[team=blue]
 bossbar set 21bluetimer visible true
 bossbar set 21spectimer players @a[tag=playing,tag=!ingame]
@@ -103,3 +104,5 @@ bossbar set 21orangetimer visible true
 scoreboard players set init= 21scores 0
 
 effect give @a[tag=ingame] invisibility infinite 1 true
+
+data remove storage games:21 Photos

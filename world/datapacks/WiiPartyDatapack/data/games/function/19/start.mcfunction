@@ -91,3 +91,5 @@ bossbar set 19greentimer players @a[team=green]
 bossbar set 19greentimer visible true
 bossbar set 19orangetimer players @a[team=orange]
 bossbar set 19orangetimer visible true
+
+kill @e[type=item_display,tag=19feather]

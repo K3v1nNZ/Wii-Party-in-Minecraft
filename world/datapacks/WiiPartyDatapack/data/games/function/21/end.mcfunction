@@ -11,6 +11,12 @@ execute if score playing= lobby matches 2 run schedule function lobby:return_to_
 # Resets scores
 
 
+tag @a remove 21cur
+
+effect clear @a[tag=ingame] invisibility
+effect clear @a[tag=ingame] speed
+effect clear @a[tag=ingame] slowness
+
 # Kills all entities
 kill @e[type=armor_stand,tag=21person]
 

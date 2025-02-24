@@ -14,17 +14,6 @@ execute if score @s 21pose matches 1 if score @s 21posePrev matches 2 if score @
 execute if score @s 21pose matches 1 if score @s 21posePrev matches 2 if score @s 21poseTime matches 8 run data merge entity @s {Pose:{Head:[-22.5f,32.4f,0f]}}
 execute if score @s 21pose matches 1 if score @s 21posePrev matches 2 if score @s 21poseTime matches 9 run data merge entity @s {Pose:{Head:[-25f,36f,0f]}}
 
-execute if score @s 21pose matches 1 if score @s 21posePrev matches 3 if score @s 21poseTime matches 0 run data merge entity @s {Pose:{Head:[335.5f,-36.9f,0f]}}
-execute if score @s 21pose matches 1 if score @s 21posePrev matches 3 if score @s 21poseTime matches 1 run data merge entity @s {Pose:{Head:[336f,-28.8f,0f]}}
-execute if score @s 21pose matches 1 if score @s 21posePrev matches 3 if score @s 21poseTime matches 2 run data merge entity @s {Pose:{Head:[336.5f,-20.7f,0f]}}
-execute if score @s 21pose matches 1 if score @s 21posePrev matches 3 if score @s 21poseTime matches 3 run data merge entity @s {Pose:{Head:[337f,-12.6f,0f]}}
-execute if score @s 21pose matches 1 if score @s 21posePrev matches 3 if score @s 21poseTime matches 4 run data merge entity @s {Pose:{Head:[337.5f,-4.5f,0f]}}
-execute if score @s 21pose matches 1 if score @s 21posePrev matches 3 if score @s 21poseTime matches 5 run data merge entity @s {Pose:{Head:[338f,3.6f,0f]}}
-execute if score @s 21pose matches 1 if score @s 21posePrev matches 3 if score @s 21poseTime matches 6 run data merge entity @s {Pose:{Head:[338.5f,11.7f,0f]}}
-execute if score @s 21pose matches 1 if score @s 21posePrev matches 3 if score @s 21poseTime matches 7 run data merge entity @s {Pose:{Head:[339f,19.8f,0f]}}
-execute if score @s 21pose matches 1 if score @s 21posePrev matches 3 if score @s 21poseTime matches 8 run data merge entity @s {Pose:{Head:[339.5f,27.9f,0f]}}
-execute if score @s 21pose matches 1 if score @s 21posePrev matches 3 if score @s 21poseTime matches 9 run data merge entity @s {Pose:{Head:[340f,36f,0f]}}
-
 execute if score @s 21pose matches 2 if score @s 21posePrev matches 1 if score @s 21poseTime matches 0 run data merge entity @s {Pose:{Head:[337.5f,32.4f,0f]}}
 execute if score @s 21pose matches 2 if score @s 21posePrev matches 1 if score @s 21poseTime matches 1 run data merge entity @s {Pose:{Head:[340f,28.8f,0f]}}
 execute if score @s 21pose matches 2 if score @s 21posePrev matches 1 if score @s 21poseTime matches 2 run data merge entity @s {Pose:{Head:[342.5f,25.2f,0f]}}
@@ -46,17 +35,6 @@ execute if score @s 21pose matches 2 if score @s 21posePrev matches 3 if score @
 execute if score @s 21pose matches 2 if score @s 21posePrev matches 3 if score @s 21poseTime matches 7 run data merge entity @s {Pose:{Head:[356f,351f,0f]}}
 execute if score @s 21pose matches 2 if score @s 21posePrev matches 3 if score @s 21poseTime matches 8 run data merge entity @s {Pose:{Head:[358f,-4.5f,0f]}}
 execute if score @s 21pose matches 2 if score @s 21posePrev matches 3 if score @s 21poseTime matches 9 run data merge entity @s {Pose:{Head:[360f,360f,0f]}}
-
-execute if score @s 21pose matches 3 if score @s 21posePrev matches 1 if score @s 21poseTime matches 0 run data merge entity @s {Pose:{Head:[339.5f,27.9f,0f]}}
-execute if score @s 21pose matches 3 if score @s 21posePrev matches 1 if score @s 21poseTime matches 1 run data merge entity @s {Pose:{Head:[339f,19.8f,0f]}}
-execute if score @s 21pose matches 3 if score @s 21posePrev matches 1 if score @s 21poseTime matches 2 run data merge entity @s {Pose:{Head:[338.5f,19.8f,0f]}}
-execute if score @s 21pose matches 3 if score @s 21posePrev matches 1 if score @s 21poseTime matches 3 run data merge entity @s {Pose:{Head:[338f,11.7f,0f]}}
-execute if score @s 21pose matches 3 if score @s 21posePrev matches 1 if score @s 21poseTime matches 4 run data merge entity @s {Pose:{Head:[337.5f,3.6f,0f]}}
-execute if score @s 21pose matches 3 if score @s 21posePrev matches 1 if score @s 21poseTime matches 5 run data merge entity @s {Pose:{Head:[337f,-4.5f,0f]}}
-execute if score @s 21pose matches 3 if score @s 21posePrev matches 1 if score @s 21poseTime matches 6 run data merge entity @s {Pose:{Head:[336.5f,-12.6f,0f]}}
-execute if score @s 21pose matches 3 if score @s 21posePrev matches 1 if score @s 21poseTime matches 7 run data merge entity @s {Pose:{Head:[336f,-20.7f,0f]}}
-execute if score @s 21pose matches 3 if score @s 21posePrev matches 1 if score @s 21poseTime matches 8 run data merge entity @s {Pose:{Head:[335.5f,-28.8f,0f]}}
-execute if score @s 21pose matches 3 if score @s 21posePrev matches 1 if score @s 21poseTime matches 9 run data merge entity @s {Pose:{Head:[355f,-36.9f,0f]}}
 
 execute if score @s 21pose matches 3 if score @s 21posePrev matches 2 if score @s 21poseTime matches 0 run data merge entity @s {Pose:{Head:[-1.0f,-4.5f,0f]}}
 execute if score @s 21pose matches 3 if score @s 21posePrev matches 2 if score @s 21poseTime matches 1 run data merge entity @s {Pose:{Head:[-3.8f,-9f,0f]}}
