@@ -31,6 +31,19 @@
                 "\ue012\ue013\ue014\u0000\u0000\u0000",
                 "\u0000\u0000\u0000\u0000\u0000\u0000"
             ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ouo:font/minigame/_namesheet_zh_cn.png",
+            "height": 4,
+            "ascent": 2,
+            "chars": [
+                "\ue300\ue301\ue302\ue303\ue304\ue305",
+                "\ue306\ue307\ue308\ue309\ue30a\ue30b",
+                "\ue30c\ue30d\ue30e\ue30f\ue310\ue311",
+                "\ue312\ue313\ue314\u0000\u0000\u0000",
+                "\u0000\u0000\u0000\u0000\u0000\u0000"
+            ]
         }
     ]
 }
