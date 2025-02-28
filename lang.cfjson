@@ -936,6 +936,7 @@
 
 
 
+    @skip
     # Minigame Display Name via Texture, this part involved font texture in resourcepack. If you wish to translate these, make sure you know what you are doing.
     "game.nametexture.game_00": "\ue000",
     "game.nametexture.game_01": "\ue001",
@@ -958,6 +959,7 @@
     "game.nametexture.game_38": "\ue012",
     "game.nametexture.game_48": "\ue013",
     "game.nametexture.game_66": "\ue014",
+    @clear
 
 
 
