@@ -42,9 +42,13 @@ void main() {
         (p >> 4) & 0xf,
         p & 0xf
     );
-    bool marker = (ivec2(Color.gb * 255. + 0.5) == ivec2(4, 249) || (Color.gb * 255. + 0.5) == ivec2(4, 248))
+
+    bool ouo = ivec2(Color.gb * 255. + 0.5) == ivec2(4, 244);
+
+    bool marker = (ivec2(Color.gb * 255. + 0.5) == ivec2(4, 249) || (Color.gb * 255. + 0.5) == ivec2(4, 248) || ouo)
         && ioffset.x < offsets.length()
         && ioffset.y < offsets.length();
+        
     if (marker) {
         gl_Position = ProjMat * ModelViewMat * vec4(Position.xy, Position.z - 2.0, 1.0);
 
@@ -64,9 +68,6 @@ void main() {
     vertexColor = texelFetch(Sampler2, UV2 / 16, 0);
 
     bool darken = ivec2(Color.gb * 255. + 0.5) == ivec2(4, 248);
-
-    bool ouo = ivec2(Color.gb * 255. + 0.5) == ivec2(4, 244);
-
 
     if (marker)
         vertexColor.a *= Color.a;

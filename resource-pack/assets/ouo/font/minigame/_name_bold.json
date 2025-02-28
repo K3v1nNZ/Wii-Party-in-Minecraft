@@ -44,6 +44,84 @@
                 "\ue312\ue313\ue314\u0000\u0000\u0000",
                 "\u0000\u0000\u0000\u0000\u0000\u0000"
             ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ouo:font/minigame/_namesheet_es_es.png",
+            "height": 4,
+            "ascent": 2,
+            "chars": [
+                "\ue400\ue401\ue402\ue403\ue404\ue405",
+                "\ue406\ue407\ue408\ue409\ue40a\ue40b",
+                "\ue40c\ue40d\ue40e\ue40f\ue410\ue411",
+                "\ue412\ue413\ue414\u0000\u0000\u0000",
+                "\u0000\u0000\u0000\u0000\u0000\u0000"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ouo:font/minigame/_namesheet_de_de.png",
+            "height": 4,
+            "ascent": 2,
+            "chars": [
+                "\ue500\ue501\ue502\ue503\ue504\ue505",
+                "\ue506\ue507\ue508\ue509\ue50a\ue50b",
+                "\ue50c\ue50d\ue50e\ue50f\ue510\ue511",
+                "\ue512\ue513\ue514\u0000\u0000\u0000",
+                "\u0000\u0000\u0000\u0000\u0000\u0000"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ouo:font/minigame/_namesheet_fr_fr.png",
+            "height": 4,
+            "ascent": 2,
+            "chars": [
+                "\ue600\ue601\ue602\ue603\ue604\ue605",
+                "\ue606\ue607\ue608\ue609\ue60a\ue60b",
+                "\ue60c\ue60d\ue60e\ue60f\ue610\ue611",
+                "\ue612\ue613\ue614\u0000\u0000\u0000",
+                "\u0000\u0000\u0000\u0000\u0000\u0000"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ouo:font/minigame/_namesheet_nl_nl.png",
+            "height": 4,
+            "ascent": 2,
+            "chars": [
+                "\ue700\ue701\ue702\ue703\ue704\ue705",
+                "\ue706\ue707\ue708\ue709\ue70a\ue70b",
+                "\ue70c\ue70d\ue70e\ue70f\ue710\ue711",
+                "\ue712\ue713\ue714\u0000\u0000\u0000",
+                "\u0000\u0000\u0000\u0000\u0000\u0000"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ouo:font/minigame/_namesheet_tr_tr.png",
+            "height": 4,
+            "ascent": 2,
+            "chars": [
+                "\ue800\ue801\ue802\ue803\ue804\ue805",
+                "\ue806\ue807\ue808\ue809\ue80a\ue80b",
+                "\ue80c\ue80d\ue80e\ue80f\ue810\ue811",
+                "\ue812\ue813\ue814\u0000\u0000\u0000",
+                "\u0000\u0000\u0000\u0000\u0000\u0000"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "ouo:font/minigame/_namesheet_ja_jp.png",
+            "height": 4,
+            "ascent": 2,
+            "chars": [
+                "\ue900\ue901\ue902\ue903\ue904\ue905",
+                "\ue906\ue907\ue908\ue909\ue90a\ue90b",
+                "\ue90c\ue90d\ue90e\ue90f\ue910\ue911",
+                "\ue912\ue913\ue914\u0000\u0000\u0000",
+                "\u0000\u0000\u0000\u0000\u0000\u0000"
+            ]
         }
     ]
 }
