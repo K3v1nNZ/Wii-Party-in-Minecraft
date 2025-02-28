@@ -1,4 +1,4 @@
-tag @e[type=item_display,tag=29clam,tag=29open,dx=0,dy=1,dz=0] add 29target
+tag @e[type=item_display,tag=29clam,tag=29open,dx=1,dy=1,dz=1] add 29target
 
 tag @e[type=item_display,tag=29target] remove 29open
 
@@ -8,8 +8,9 @@ execute as @e[type=item_display,tag=29target] run function games:29/clam_wait
 
 scoreboard players add @s 29score 1
 
-particle minecraft:wax_off ~ ~1 ~ 0.5 1 0.5 1 10
+particle minecraft:wax_off ~ ~1 ~ 0.75 1 0.75 1 20
 playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1 1
+playsound block.ender_chest.close master @a ~ ~ ~ 10 1.5
 
 title @s times 3 10 10
 title @s title ""
