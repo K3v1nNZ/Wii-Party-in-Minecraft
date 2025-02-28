@@ -1,3 +1,5 @@
+execute if score @p[tag=ingame] 41score matches 0 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"00"}'}
+
 execute if score @p[tag=ingame] 41score matches 1 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"01"}'}
 
 execute if score @p[tag=ingame] 41score matches 2 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"02"}'}
