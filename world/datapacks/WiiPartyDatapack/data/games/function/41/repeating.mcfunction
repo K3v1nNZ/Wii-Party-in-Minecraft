@@ -11,17 +11,22 @@ execute if score ingame= 41scores matches 2 store result bossbar minecraft:41gre
 execute if score ingame= 41scores matches 2 store result bossbar minecraft:41orangetimer value run scoreboard players get bossbar= 41scores
 execute if score ingame= 41scores matches 2 store result bossbar minecraft:41spectimer value run scoreboard players get bossbar= 41scores
 
-# Crouch detection
-# Unset barrier
-execute as @a[tag=ingame,scores={41jump=1..}] run attribute @s generic.gravity base set 0.04
-tag @a[tag=ingame,scores={41jump=1..}] add 41jump
-scoreboard players add @a[tag=ingame,scores={41sneak=1}] 41sneakTime 1
-scoreboard players set @a[tag=ingame,scores={41sneak=0}] 41sneakTime 0
-execute if score ingame= 41scores matches 2 as @a[tag=ingame,tag=!41crouched,tag=41jump,scores={41sneakTime=1..3}] at @s run function games:41/crouch
-execute if score ingame= 41scores matches 2 as @a[tag=ingame,tag=41crouched,scores={41sneakTime=0}] at @s run function games:41/uncrouch
-execute if score ingame= 41scores matches 2 as @a[tag=ingame,tag=41jump] at @s if predicate games:41on_ground run function games:41/land
-scoreboard players set @a[tag=ingame] 41jump 0
-scoreboard players set @a[tag=ingame] 41sneak 0
+## # Crouch detection
+## # Unset barrier
+## execute as @a[tag=ingame,scores={41jump=1..}] run attribute @s generic.gravity base set 0.04
+## tag @a[tag=ingame,scores={41jump=1..}] add 41jump
+## scoreboard players add @a[tag=ingame,scores={41sneak=1}] 41sneakTime 1
+## scoreboard players set @a[tag=ingame,scores={41sneak=0}] 41sneakTime 0
+## execute if score ingame= 41scores matches 2 as @a[tag=ingame,tag=!41crouched,tag=41jump,scores={41sneakTime=1..3}] at @s run function games:41/crouch
+## execute if score ingame= 41scores matches 2 as @a[tag=ingame,tag=41crouched,scores={41sneakTime=0}] at @s run function games:41/uncrouch
+## execute if score ingame= 41scores matches 2 as @a[tag=ingame,tag=41jump] at @s if predicate games:41on_ground run function games:41/land
+## scoreboard players set @a[tag=ingame] 41jump 0
+## scoreboard players set @a[tag=ingame] 41sneak 0
+
+# Jump Detection
+execute if score ingame= 41scores matches 2 as @a[tag=ingame] if score @s 41jump > @s 41prev run scoreboard players operation @s 41score = @s 41jump
+execute if score ingame= 41scores matches 2 as @a[tag=ingame] if score @s 41jump > @s 41prev run function games:41/display
+execute if score ingame= 41scores matches 2 as @a[tag=ingame] run scoreboard players operation @s 41prev = @s 41jump
 
 # Mke sure player doesnt run away
 execute as @e[type=item_display,tag=41stand,tag=blue] at @s positioned ~-0.5 ~ ~-0.5 unless entity @a[dx=0,dy=3,dz=0,team=blue] at @s run tp @a[tag=ingame,team=blue] ~ ~1 ~

@@ -54,6 +54,7 @@ scoreboard objectives add 41delay dummy
 scoreboard objectives add 41jump minecraft.custom:minecraft.jump
 scoreboard objectives add 41sneak minecraft.custom:minecraft.sneak_time
 scoreboard objectives add 41sneakTime dummy
+scoreboard objectives add 41prev dummy
 
 
 # Updates the scoreboard

@@ -31,3 +31,6 @@ execute if score ingame= 19scores matches 2 store result bossbar minecraft:19red
 execute if score ingame= 19scores matches 2 store result bossbar minecraft:19greentimer value run scoreboard players get bossbar= 19scores
 execute if score ingame= 19scores matches 2 store result bossbar minecraft:19orangetimer value run scoreboard players get bossbar= 19scores
 execute if score ingame= 19scores matches 2 store result bossbar minecraft:19spectimer value run scoreboard players get bossbar= 19scores
+
+# Stop escaping
+execute positioned 20000 20 20000 as @a[tag=ingame,distance=40..] at @s facing 20000 20 20000 run tp @s ^ ^ ^1

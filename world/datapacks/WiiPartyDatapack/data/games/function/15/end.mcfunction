@@ -40,3 +40,4 @@ team modify orange collisionRule never
 execute as @a[tag=ingame] run attribute @s minecraft:generic.movement_speed base set 0.1
 execute as @a[tag=ingame] run attribute @s minecraft:generic.jump_strength base set 0.41999998688697815
 execute as @a[tag=ingame] run attribute @s generic.step_height base set 0.6
+execute as @a run attribute @s player.entity_interaction_range base set 3.0

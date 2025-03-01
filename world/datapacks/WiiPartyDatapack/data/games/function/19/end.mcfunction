@@ -37,3 +37,6 @@ bossbar set minecraft:19redtimer players
 bossbar set minecraft:19greentimer players
 bossbar set minecraft:19orangetimer players
 bossbar set minecraft:19spectimer players
+
+effect clear @a[tag=ingame] speed
+execute as @a[tag=ingame] run attribute @s generic.step_height base set 0.6

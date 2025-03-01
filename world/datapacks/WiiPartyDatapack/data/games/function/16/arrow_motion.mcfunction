@@ -4,5 +4,3 @@ execute as @s[tag=16arrow] store result entity @s Motion[2] double 10 run data g
 
 tag @s[tag=16arrow] add 16arrow2
 tag @s add 16arrow
-
-say a

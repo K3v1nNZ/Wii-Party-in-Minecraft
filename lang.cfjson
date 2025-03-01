@@ -747,7 +747,7 @@
     # Chin Up Champs
     "game.ChinUpChampsName": "Chin Up Champs",
     % How To Play
-    "game.ChinUpChamps.How.1|2": "@EI;%s#Bullet Point (-)@ Spam JUMP and CROUCH at the same time to perform a pullup|@EI;%s#Bullet Point (-)@ The player with the most pull ups wins!",
+    "game.ChinUpChamps.How.1|2": "@EI;%s#Bullet Point (-)@ Spam JUMP to perform a pullup|@EI;%s#Bullet Point (-)@ The player with the most pull ups wins!",
 
     # Ram Jam
     "game.RamJamName": "Ram Jam",

@@ -22,7 +22,11 @@ function games:41/play_song
 
 scoreboard players set timer= 41scores 0
 
-execute as @a[tag=ingame] run attribute @s generic.jump_strength base set 5
+execute as @a[tag=ingame] run attribute @s generic.jump_strength base set 3
+execute as @a[tag=ingame] run attribute @s generic.gravity base set 50
 
 # Reset the scores 1 tick after start due to is_on_ground returning true for the first run of repeating if the player jumps in the countdown
 schedule function games:41/reset_scores 1t
+
+scoreboard players set @a[tag=ingame] 41jump 0
+scoreboard players set @a[tag=ingame] 41prev 0

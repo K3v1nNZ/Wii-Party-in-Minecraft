@@ -13,11 +13,6 @@ execute as @e[type=armor_stand,tag=21person] run function games:21/display_set
 
 # schedule function games:21/display_new 3s
 
-execute if entity @s[team=blue] run tellraw @s "blue"
-execute if entity @s[team=red] run tellraw @s "red"
-execute if entity @s[team=green] run tellraw @s "green"
-execute if entity @s[team=orange] run tellraw @s "orange"
-
 playsound block.note_block.pling master @a ~ ~ ~ 1 0.75
 
 schedule function games:21/display_start_count 10t

@@ -9,7 +9,7 @@ execute positioned 16020 18 16003 as @a[dx=-5,dy=10,dz=-2,tag=15finished] at @s 
 
 
 # End detection
-execute if score ingame= 15scores matches 2 positioned 16020 18 16003 as @a[dx=5,dy=10,dz=-2,tag=!15finished] at @s run function games:15/reachend
+execute if score ingame= 15scores matches 2 positioned 16020 18 16003 as @a[dx=5,dy=10,dz=-2,tag=ingame,tag=!15finished] at @s run function games:15/reachend
 execute store result score notfinished= 15scores if entity @a[tag=ingame,tag=!15finished]
 execute if score ingame= 15scores matches 2 if score notfinished= 15scores matches ..1 run function games:15/finish
 

@@ -95,3 +95,6 @@ bossbar set 19orangetimer players @a[team=orange]
 bossbar set 19orangetimer visible true
 
 kill @e[type=item_display,tag=19feather]
+
+effect give @a[tag=ingame] speed infinite 2 true
+execute as @a[tag=ingame] run attribute @s generic.step_height base set 1
