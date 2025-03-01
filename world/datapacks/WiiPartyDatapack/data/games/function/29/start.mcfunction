@@ -20,6 +20,7 @@ tellraw @a[tag=playing] ""
 tellraw @a[tag=playing] [{"translate":"game.HowToPlay","color":"gray","bold":true}]
 tellraw @a[tag=playing] [{"translate":"game.PearlPlunder.How.1","color":"gray","with":[{"text":"-"}]}]
 tellraw @a[tag=playing] [{"translate":"game.PearlPlunder.How.2","color":"gray","with":[{"text":"-"}]}]
+tellraw @a[tag=playing] [{"translate":"game.PearlPlunder.How.3","color":"gray","with":[{"text":"-"}]}]
 tellraw @a[tag=playing] ""
 
 # Teleport all players to the minigame

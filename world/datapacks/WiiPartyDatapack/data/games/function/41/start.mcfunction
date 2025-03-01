@@ -24,6 +24,7 @@ tellraw @a[tag=playing] ""
 
 # Teleport all players to the minigame
 spreadplayers 40997 41002 5 5 false @a[tag=playing,tag=!ingame]
+execute as @a[tag=playing,tag=!ingame] at @s run tp @s ~ ~ ~ -90 0
 tp @a[team=blue] 41017 19 40996 90 0
 tp @a[team=red] 41011 18 40999 90 0
 tp @a[team=green] 41011 18 41005 90 0

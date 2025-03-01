@@ -737,17 +737,17 @@
     # Feathered Frenzy
     "game.FeatheredFrenzyName": "Feathered Frenzy",
     % How To Play
-    "game.FeatheredFrenzy.How.1|2": "@EI;%s#Bullet Point (-)@ Run around collecting feathers|@EI;%s#Bullet Point (-)@ The player with the most feathers wins!",
+    "game.FeatheredFrenzy.How.1|2|3": "@EI;%s#Bullet Point (-)@ Run around collecting feathers|@EI;%s#Bullet Point (-)@ Different color feathers grant different points|@EI;%s#Bullet Point (-)@ The player with the most feathers wins!",
 
     # Pearl Plunder
     "game.PearlPlunderName": "Pearl Plunder",
     % How To Play
-    "game.PearlPlunder.How.1|2": "@EI;%s#Bullet Point (-)@ Swim around to collect pearls|@EI;%s#Bullet Point (-)@ The player with the most points wins!",
+    "game.PearlPlunder.How.1|2|3": "@EI;%s#Bullet Point (-)@ Swim around to collect pearls|@EI;%s#Bullet Point (-)@ Avoid getting shocked by jellyfish|@EI;%s#Bullet Point (-)@ The player with the most points wins!",
 
     # Chin Up Champs
     "game.ChinUpChampsName": "Chin Up Champs",
     % How To Play
-    "game.ChinUpChamps.How.1|2": "@EI;%s#Bullet Point (-)@ Spam CROUCH to pull up and down|@EI;%s#Bullet Point (-)@ The player with the most pull ups wins!",
+    "game.ChinUpChamps.How.1|2": "@EI;%s#Bullet Point (-)@ Spam JUMP and CROUCH at the same time to perform a pullup|@EI;%s#Bullet Point (-)@ The player with the most pull ups wins!",
 
     # Ram Jam
     "game.RamJamName": "Ram Jam",
