@@ -47,7 +47,7 @@ function general:reset_tags
 # Create scoreboards
 scoreboard objectives add 41score dummy
 scoreboard players set @a[tag=ingame] 41score 0
-scoreboard players set maxTime= 41scores 600
+scoreboard players set maxTime= 41scores 200
 scoreboard players set timer= 41scores 0
 scoreboard objectives add 41delay dummy
 scoreboard objectives add 41jump minecraft.custom:minecraft.jump
@@ -78,16 +78,16 @@ bossbar set 41spectimer color pink
 bossbar set 41redtimer color red
 bossbar set 41greentimer color green
 bossbar set 41orangetimer color yellow
-bossbar set 41bluetimer max 600
-bossbar set 41spectimer max 600
-bossbar set 41redtimer max 600
-bossbar set 41greentimer max 600
-bossbar set 41orangetimer max 600
-bossbar set 41bluetimer value 600
-bossbar set 41spectimer value 600
-bossbar set 41redtimer value 600
-bossbar set 41greentimer value 600
-bossbar set 41orangetimer value 600
+bossbar set 41bluetimer max 200
+bossbar set 41spectimer max 200
+bossbar set 41redtimer max 200
+bossbar set 41greentimer max 200
+bossbar set 41orangetimer max 200
+bossbar set 41bluetimer value 200
+bossbar set 41spectimer value 200
+bossbar set 41redtimer value 200
+bossbar set 41greentimer value 200
+bossbar set 41orangetimer value 200
 bossbar set 41bluetimer players @a[team=blue]
 bossbar set 41bluetimer visible true
 bossbar set 41spectimer players @a[tag=playing,tag=!ingame]
@@ -100,3 +100,7 @@ bossbar set 41orangetimer players @a[team=orange]
 bossbar set 41orangetimer visible true
 
 function games:41/spawn_timer
+
+schedule function games:41/spawn_stand 5t
+
+execute as @a[tag=ingame] run attribute @s generic.jump_strength base set 0

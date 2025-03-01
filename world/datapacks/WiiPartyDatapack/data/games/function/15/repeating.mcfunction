@@ -13,6 +13,13 @@ execute if score ingame= 15scores matches 2 positioned 16020 18 16003 as @a[dx=5
 execute store result score notfinished= 15scores if entity @a[tag=ingame,tag=!15finished]
 execute if score ingame= 15scores matches 2 if score notfinished= 15scores matches ..1 run function games:15/finish
 
+# Stop from escaping the wall
+execute as @a[tag=ingame,tag=!15finished] at @s if block ~ 0 ~-.25 lime_concrete align z run tp @s ~ ~ ~-.5
+execute as @a[tag=ingame,tag=!15finished] at @s if block ~ 0 ~.25 red_concrete align z run tp @s ~ ~ ~1.5
+
+# Stop escaping after finishing
+execute positioned 16026 18 16002 as @a[tag=ingame,tag=15finished,distance=15..] run tp @s ~ ~ ~
+
 
 # Wheat offhand
 clear @a[tag=ingame] wheat

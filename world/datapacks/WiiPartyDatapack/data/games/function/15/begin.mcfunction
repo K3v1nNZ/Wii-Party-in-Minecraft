@@ -26,4 +26,4 @@ team modify green collisionRule always
 team modify orange collisionRule always
 
 execute as @a[tag=ingame] run attribute @s minecraft:generic.movement_speed base set 0.1
-execute as @a[tag=ingame] run attribute @s minecraft:generic.jump_strength base set 0.41999998688697815
+execute as @a[tag=ingame] run attribute @s generic.step_height base set 1
